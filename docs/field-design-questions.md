@@ -2,17 +2,28 @@
 
 These questions require Martin's generalized field judgment. Answers must not contain employer, site, person, asset, or incident identifiers.
 
+## Decisions recorded for M1
+
+The initial project positioning resolves four foundational questions:
+
+- **Professional audience:** clients, recruiters, and companies evaluating Martin's experience and systems capability.
+- **Synthetic operational persona:** incoming supervisor.
+- **Handover unit:** work front, capable of grouping multiple tasks and dependencies.
+- **First value problem:** ambiguity between reported, evidence-supported, pending, conflicting, and unknown state.
+
+These decisions remain hypotheses to test through synthetic scenarios. They do not describe or reproduce one employer's workflow.
+
 ## Handover unit
 
-1. What is the most useful unit to hand over: a work front, a task, an asset, an area, or a crew responsibility?
-2. Can several tasks belong to one work front?
-3. When does a work front count as meaningfully changed?
+1. Which task and dependency attributes must a work front contain?
+2. When does a work front count as meaningfully changed?
+3. When should one work front split into two?
 
-## Incoming audience
+## Incoming supervisor view
 
-4. Who needs the first useful view: incoming supervisor, coordinator, planner, trade/TA crew, client representative, or another generic role?
-5. What three facts must that role understand in under one minute?
-6. What should remain hidden or secondary unless requested?
+4. What three facts must the incoming supervisor understand in under one minute?
+5. What should remain hidden or secondary unless requested?
+6. Which condition should be visually dominant: blocker, evidence gap, ownership, or change since last handover?
 
 ## Evidence and uncertainty
 
@@ -33,9 +44,9 @@ These questions require Martin's generalized field judgment. Answers must not co
 15. What wording clearly separates “evidence recorded” from “safe/approved/ready to work”?
 16. Which decisions must always remain with site procedures and competent roles?
 
-## Value test
+## Professional value test
 
-17. What confusion or rework should this model reduce?
-18. Who would plausibly pay for the resulting visibility, and at what stage of a shutdown?
+17. What should a recruiter or client be able to verify in five minutes?
+18. Which artifact best demonstrates the connection between field experience and systems design?
 19. What existing tool or practice would this complement rather than replace?
-20. What observable metric would show that the handover became better?
+20. What observable metric would show that the synthetic handover became better?
