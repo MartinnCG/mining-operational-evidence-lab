@@ -8,15 +8,28 @@ What system or domain question does this change answer?
 - Reproduction or inspection:
 - Tests:
 
+## Company-value check
+
+- [ ] The operational user and decision are named.
+- [ ] The information friction is explicit.
+- [ ] The artifact has an inspectable success or failure measure.
+- [ ] The change complements an existing process and does not claim unsupported benefit.
+
+## Evidence classification
+
+- [ ] Every material statement is identifiable as `PUBLIC_CONTEXT`, `PERSONAL_EXPERIENCE`, `SYNTHETIC_DATA`, `DERIVED_ANALYSIS`, or `UNKNOWN`.
+- [ ] Named sites or assets are independently public, cited, and used only for context.
+- [ ] Synthetic status is visible in documentation and data.
+
 ## Confidentiality check
 
-- [ ] All examples are synthetic or openly sourced.
-- [ ] No employer, site, person, asset, roster, incident, permit, procedure, photo, or location is identifiable.
-- [ ] Synthetic status is visible in documentation and data.
+- [ ] No person, crew, employer relationship, live status, roster, incident, permit, isolation, procedure, internal document, photo, or confidential condition is exposed.
+- [ ] Combined details cannot reconstruct or re-identify confidential operational activity.
+- [ ] Applicable contractual and site-policy obligations have been considered.
 
 ## Claims and authority check
 
-- [ ] Wording does not imply deployment, approval, safety authority, or permission to work.
+- [ ] Wording does not imply deployment, approval, competence, safety authority, or permission to work.
 - [ ] Uncertainty, missing evidence, and limitations are explicit.
 - [ ] Any AI output remains traceable to evidence or refuses unsupported claims.
 

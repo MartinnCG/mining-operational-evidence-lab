@@ -2,11 +2,13 @@
 
 ## Objective
 
-Convert experience gained during a year of Queensland mining and shutdown work into reusable systems knowledge without copying confidential information or pretending to hold operational authority.
+Convert experience gained during Queensland mining and shutdown work into reusable systems knowledge without copying confidential information or pretending to hold operational authority.
+
+A named, independently public site may define the case container. It does not authorize publication of what occurred there.
 
 ## Capture model
 
-Do not record raw site details in this repository. After a shift or swing, capture only a sanitized learning unit:
+Do not record raw site details in this repository. After a shift or swing, capture only a private learning unit for later sanitization:
 
 | Field | Question |
 |---|---|
@@ -17,20 +19,27 @@ Do not record raw site details in this repository. After a shift or swing, captu
 | Handover need | What must the next role understand? |
 | System hypothesis | What contract, validation, or interface might help? |
 | Boundary | What must remain under site, safety, statutory, or competent-person authority? |
-| Sanitization check | Could this identify a real employer, site, person, asset, or event? |
+| Sanitization check | Could this identify a person, crew, live state, event, or confidential condition? |
+
+Private field notes are not repository artifacts and must follow applicable site and employment rules.
 
 ## Abstraction pipeline
 
-1. **Observe privately:** learn from normal work within site rules.
-2. **Delay and detach:** do not publish during the event; remove identifying context.
-3. **Generalize:** describe a class of coordination problem, not a story about a specific event.
-4. **Synthesize:** generate fictional actors, timestamps, assets, evidence, and outcomes.
-5. **Model:** express the pattern as a contract, state transition, test, or failure mode.
-6. **Challenge:** include missing evidence, contradictory events, late updates, and unsupported claims.
-7. **Document:** record what the synthetic test demonstrates and what it does not.
-8. **Synchronize:** assess impact on Operational Systems Design and connected repositories.
+1. **Register context:** create only a public, source-backed case identity.
+2. **Observe privately:** learn from normal work within site rules.
+3. **Delay and detach:** do not publish during the event; remove identifying operational context.
+4. **Generalize:** describe a class of coordination problem, not a story about a specific event.
+5. **Synthesize:** generate fictional actors, timestamps, assets, evidence, and outcomes.
+6. **Model:** express the pattern as a contract, state transition, test, or failure mode.
+7. **Challenge:** include missing evidence, contradictory events, late updates, and unsupported claims.
+8. **Document:** record what the synthetic test demonstrates and what it does not.
+9. **Synchronize:** assess impact on Operational Systems Design and connected repositories.
 
 ## Good transformation
+
+Limited public context:
+
+> Case 002 is associated with a publicly named operation and is reserved for later retrospective analysis.
 
 Private observation:
 
@@ -38,25 +47,25 @@ Private observation:
 
 Publishable abstraction:
 
-> Model a synthetic work front where status assertions conflict, evidence timestamps differ, and ownership transfers between fictional roles.
+> Model a fictional work front where status assertions conflict, evidence timestamps differ, and ownership transfers between synthetic roles.
 
 ## Bad transformation
 
 > On a named date, a named crew at a recognizable asset failed to attach a real permit before night shift.
 
-Changing names alone is not sufficient sanitization.
+Changing names alone is not sufficient sanitization. Combining a public asset name with private operational detail can still disclose confidential information.
 
-## Weekly cadence compatible with shutdown work
+## Cadence compatible with shutdown work
 
 The cadence is outcome-based, not streak-based:
 
-- **Field week:** privately note one generalized pattern; no GitHub activity required.
-- **Room/off-swing session:** sanitize one pattern and convert it into one issue or scenario proposal.
+- **Active field period:** register context only; no live operational GitHub updates.
+- **Post-period review:** sanitize one generalized pattern and convert it into one issue or scenario proposal.
 - **Build session:** add one small evidence-bearing artifact or test.
 - **Review session:** explain the architectural reason, limitation, and portfolio impact.
-- **Monthly synthesis:** publish one concise learning note from completed, synthetic work.
+- **Periodic synthesis:** publish one concise learning note from completed synthetic work.
 
-A quiet week during a shutdown is valid. Credibility comes from coherent evidence, not commit volume.
+A quiet period during a shutdown is valid. Credibility comes from coherent evidence, not commit volume.
 
 ## Definition of learning evidence
 
