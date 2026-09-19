@@ -16,6 +16,20 @@ Evidence:
 
 Exit: foundation PR reviewed and merged.
 
+## M0.1 — Case system
+
+**Question:** How will multiple shutdown experiences become consistent, comparable analytical cases?
+
+Evidence:
+
+- formal case definition and evidence classes;
+- maturity states and naming policy;
+- reusable case template;
+- public source register;
+- Case 001 and Case 002 registered without operational disclosure.
+
+Exit: every registered case can be inspected against the same mandatory structure and publication boundary.
+
 ## M1 — Shutdown handover contract
 
 **Question:** What minimum state must a synthetic incoming role receive?
@@ -73,16 +87,33 @@ Exit: every output claim links to evidence or is explicitly marked as unsupporte
 
 ## M5 — Longitudinal synthetic study
 
-**Question:** What patterns emerge across multiple shutdown cycles?
+**Question:** What transferable patterns emerge across multiple shutdown cases?
 
 Evidence:
 
+- multiple registered and framed cases;
 - versioned synthetic cycles;
 - metrics for evidence completeness, staleness, ownership clarity, and handover latency;
 - documented findings and rejected hypotheses;
-- portfolio case study suitable for interviews and client discovery.
+- cross-case limits and comparability rules.
 
-Exit: reproducible study plus a plain-language architecture narrative.
+Exit: reproducible study plus a plain-language professional narrative.
+
+## M6 — Power BI synthesis
+
+**Question:** Can the mature multi-shutdown evidence base be communicated as an executive and analytical decision layer?
+
+Evidence:
+
+- curated outputs generated outside Power BI;
+- documented semantic model and metric definitions;
+- views for overview, work fronts, evidence quality, constraints, and cross-case comparison;
+- visible synthetic-data and uncertainty labels;
+- public-safe demonstration or screenshots.
+
+Exit: the dashboard reproduces declared metrics and adds no hidden operational logic or confidential data.
+
+Power BI is intentionally deferred until Martin has completed Rolleston and additional shutdown experience. It will summarize the case system; it will not define it.
 
 ## Future option: geospatial operations layer
 
