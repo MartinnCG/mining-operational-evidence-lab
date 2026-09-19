@@ -10,6 +10,27 @@ This repository translates generalized field experience from Queensland mining a
 
 The project demonstrates operational systems thinking: how fragmented observations become governed evidence, auditable transitions, and decision-ready outputs.
 
+## Audience model
+
+This repository serves two deliberately separate audiences:
+
+1. **Professional audience:** clients, recruiters, and companies evaluating Martin's ability to connect field experience, data science, system architecture, evidence governance, and AI.
+2. **Operational persona inside the synthetic case:** an incoming supervisor who must understand a work front in under one minute.
+
+The repository is therefore a professional evidence asset, not a claim that a mine currently operates this system.
+
+## What this project is intended to prove
+
+Through inspectable artifacts rather than unsupported biography, the repository demonstrates an ability to:
+
+- recognize recurring operational-information problems from field experience;
+- abstract those problems without exposing employer or site information;
+- translate them into contracts, states, evidence rules, tests, and interfaces;
+- distinguish reported, evidenced, pending, conflicting, and unknown states;
+- connect mining context with data science, operational systems, and governed AI;
+- sustain a coherent body of work over time and explain its design decisions;
+- preserve human and site authority at every boundary.
+
 ## Position in the portfolio
 
 | Repository | Role |
@@ -19,6 +40,15 @@ The project demonstrates operational systems thinking: how fragmented observatio
 | [Corredor de Altura](https://github.com/MartinnCG/corredor-altura) | Geospatial data-science application |
 | [AI/ML Systems Architecture Labs](https://github.com/MartinnCG/ai-ml-systems-architecture-labs) | Governed AI/ML patterns |
 | **Mining Operational Evidence Lab** | Mining-domain translation and synthetic operational cases |
+
+## First architectural decisions
+
+- **Handover unit:** work front, which may contain multiple tasks and dependencies.
+- **Operational persona:** incoming supervisor.
+- **Initial value problem:** distinguish reported state, evidence-supported state, pending evidence, conflicting evidence, and unknown state.
+- **External beneficiary:** the client, recruiter, or company evaluating the body of work.
+
+These are testable design decisions, not claims about one employer's process.
 
 ## Public evidence boundary
 
