@@ -10,6 +10,20 @@ This repository translates field learning from Queensland mining and shutdown en
 
 The repository uses named sites only as public professional context. It does not publish real operational records.
 
+## Value to an operating company
+
+The intended value is practical: complement existing shutdown controls with clearer information state, not replace operational systems or site authority.
+
+A mature case should help a company examine whether it can:
+
+- reduce ambiguity when a work front changes hands;
+- expose missing, stale, or conflicting evidence before it becomes a decision problem;
+- make blockers, ownership, and next actions easier to understand;
+- compare recurring information-friction patterns across shutdowns;
+- preserve an auditable path from observation to metric and conclusion.
+
+Every artifact must connect to a decision, a user, and an inspectable measure. Technical work without a plausible operational use does not pass the value gate.
+
 ## Audience model
 
 This repository serves two deliberately separate audiences:
@@ -39,6 +53,14 @@ Every published statement or artifact belongs to one explicit class:
 | [Case 002](cases/case-002-rolleston-dl01/README.md) | Rolleston DL01 | Longitudinal; publication deferred | Registered |
 
 All cases follow the [case-study framework](docs/case-study-framework.md) and the reusable [case template](cases/_template/README.md).
+
+## Operating workflow
+
+The controlled workflow is documented in [Operating Workflow](docs/operating-workflow.md). During active field periods, Martin may complete the [private daily capture template](templates/private-daily-capture.md), but completed forms and raw observations are never committed.
+
+**private capture → end-of-swing triage → sanitization → issue → synthetic model → validation → case brief**
+
+The public repository stays deliberately small: definitions, synthetic inputs, validation code, findings, and limitations. It does not become a storage location for daily notes.
 
 ## What this project is intended to prove
 
@@ -92,6 +114,7 @@ See [Confidentiality and Claims Boundary](docs/confidentiality-and-claims-bounda
 
 - **M0 — Foundation:** scope, claims boundary, architecture, learning protocol, and contribution rules.
 - **M0.1 — Case system:** case definition, reusable template, register, and initial named contexts.
+- **M0.2 — Evidence workflow:** private capture template, sanitization gates, value gate, and publication workflow.
 - **M1 — Handover contract:** canonical synthetic event/state model and acceptance criteria.
 - **M2 — Scenario generator:** reproducible synthetic shifts, work fronts, interruptions, and evidence gaps.
 - **M3 — Evidence integration:** export to the Operational Evidence Envelope and cross-repository validation.

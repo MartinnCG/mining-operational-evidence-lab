@@ -38,35 +38,49 @@ Case 002 will test the longitudinal learning protocol: whether repeated private 
 
 > Can a delayed, longitudinal capture process preserve transferable learning while preventing live or identifiable operational disclosure?
 
-## 5. Publication boundary
+## 5. Company-value hypothesis
+
+| Element | Initial hypothesis |
+|---|---|
+| Operational user | Shutdown coordinator, planner, or incoming supervisor |
+| Decision supported | Which recurring information-friction pattern deserves standardisation or further investigation? |
+| Information friction | Useful field learning can remain fragmented across shifts and shutdowns |
+| Evidence required | Sanitized pattern category, consequence class, missing signal, recurrence, and confidence |
+| Inspectable measure | End-of-period triage produces comparable, non-identifying patterns suitable for synthetic tests |
+| Existing process complemented | Post-shutdown review and continuous improvement |
+
+This is a design hypothesis only. It does not describe Rolleston DL01 performance or claim a realised benefit.
+
+## 6. Publication boundary
 
 During the active field period, this case remains a context-only registration. Operational development begins only after delay, sanitization, and confidentiality review.
 
-## 6. Candidate learning themes
+## 7. Candidate learning themes
 
 No site-specific problem or performance claim is asserted at registration. Candidate themes remain private until generalized and reviewed.
 
-## 7. Planned evidence artifacts
+## 8. Planned evidence artifacts
 
 - [ ] End-of-period sanitized retrospective
+- [ ] Private capture completeness review
 - [ ] Generalized pattern register
 - [ ] Comparison against the Case 001 retrospective method
 - [ ] Synthetic scenario manifest
 - [ ] Validation rules and tests
 - [ ] Findings and limitations
 
-## 8. Findings
+## 9. Findings
 
 No findings are claimed while the case remains `REGISTERED`.
 
-## 9. Limitations
+## 10. Limitations
 
 - The case does not describe Rolleston DL01 operations or performance.
 - Registration is not proof of a particular role, duty, outcome, or competency.
 - Future synthetic results cannot establish actual site conditions.
 - The project is independent and is not presented as commissioned, reviewed, approved, or endorsed by the site owner, operator, employer, or contractors.
 
-## 10. Change log
+## 11. Change log
 
 | Date | Change | Maturity transition |
 |---|---|---|

@@ -37,35 +37,49 @@ Case 001 will establish the retrospective method: how a completed field experien
 
 > Can a retrospective shutdown experience produce a useful synthetic evidence model without reconstructing or implying facts about the real operation?
 
-## 5. Publication boundary
+## 5. Company-value hypothesis
+
+| Element | Initial hypothesis |
+|---|---|
+| Operational user | Incoming supervisor or shutdown coordinator |
+| Decision supported | Which work front requires clarification or follow-up first? |
+| Information friction | Reported state can be difficult to separate from evidence-supported state |
+| Evidence required | State assertion, evidence reference, timestamp, blocker, owner, and next action |
+| Inspectable measure | Synthetic reviewer identifies unsupported or conflicting states without inspecting raw events |
+| Existing process complemented | Shift handover and shutdown coordination |
+
+This is a design hypothesis only. It does not describe Hail Creek CHPP performance or claim a realised benefit.
+
+## 6. Publication boundary
 
 All future actors, events, timestamps, blockers, evidence records, states, and outcomes will be fictional. The site name supplies context only.
 
-## 6. Candidate learning themes
+## 7. Candidate learning themes
 
 No site-specific problem is asserted at registration. Themes will be added only after Martin completes a structured, sanitized retrospective.
 
-## 7. Planned evidence artifacts
+## 8. Planned evidence artifacts
 
 - [ ] Sanitized retrospective interview
+- [ ] Company-value hypothesis reviewed against the retrospective
 - [ ] Generalized pattern register
 - [ ] Synthetic scenario manifest
 - [ ] Event/state contract examples
 - [ ] Validation rules and tests
 - [ ] Findings and limitations
 
-## 8. Findings
+## 9. Findings
 
 No findings are claimed while the case remains `REGISTERED`.
 
-## 9. Limitations
+## 10. Limitations
 
 - The case does not describe Hail Creek CHPP operations or performance.
 - Participation duration alone does not evidence detailed duties or competence.
 - Future synthetic results cannot establish actual site conditions.
 - The project is independent and is not presented as commissioned, reviewed, approved, or endorsed by the site owner, operator, employer, or contractors.
 
-## 10. Change log
+## 11. Change log
 
 | Date | Change | Maturity transition |
 |---|---|---|

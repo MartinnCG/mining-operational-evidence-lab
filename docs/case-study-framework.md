@@ -10,6 +10,19 @@ The inspectable chain is:
 
 **public context → limited personal claim → sanitized question → synthetic model → reproducible analysis → limitation → transferable finding**
 
+## Company-value gate
+
+A case is worth building only if it can state:
+
+1. **Operational user:** who would consume the output?
+2. **Decision:** what decision or prioritization could it improve?
+3. **Information friction:** what is currently late, missing, ambiguous, fragmented, or difficult to compare?
+4. **Evidence needed:** which fields or signals would support the decision?
+5. **Inspectable measure:** how will the synthetic experiment show improvement or failure?
+6. **Adoption boundary:** which existing process or system would it complement?
+
+This is a hypothesis gate, not a benefit claim. No saving, safety improvement, productivity gain, or operational result is claimed without evidence.
+
 ## Evidence classes
 
 Every material case statement must be attributable to one class.
@@ -44,10 +57,11 @@ Each case README must contain:
 2. public context and source register;
 3. limited personal-experience statement;
 4. purpose and sanitized analytical question;
-5. publication and authority boundary;
-6. candidate learning themes;
-7. planned evidence artifacts;
-8. findings, limitations, and change log.
+5. company-value hypothesis: user, decision, friction, evidence, measure, and adoption boundary;
+6. publication and authority boundary;
+7. candidate learning themes;
+8. planned evidence artifacts;
+9. findings, limitations, and change log.
 
 A blank or unknown field must remain explicit. It must not be completed from assumption.
 
@@ -84,6 +98,18 @@ A case may be registered while field work is under way, but no live operational 
 5. create fictional scenarios;
 6. test the model;
 7. publish only the sanitized artifact.
+
+## Daily capture relationship
+
+Daily capture is a private input process, not public evidence. Completed daily forms must not be committed.
+
+A pattern becomes eligible for the repository only after:
+
+- it has been detached from people, dates, crews, and live operations;
+- it describes a recurring information problem rather than an accusation or event reconstruction;
+- it passes the confidentiality and company-value gates;
+- fictional data can test it;
+- a reviewer can distinguish observation, hypothesis, synthetic result, and limitation.
 
 ## Professional value test
 

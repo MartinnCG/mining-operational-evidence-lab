@@ -8,6 +8,13 @@ What system or domain question does this change answer?
 - Reproduction or inspection:
 - Tests:
 
+## Company-value check
+
+- [ ] The operational user and decision are named.
+- [ ] The information friction is explicit.
+- [ ] The artifact has an inspectable success or failure measure.
+- [ ] The change complements an existing process and does not claim unsupported benefit.
+
 ## Evidence classification
 
 - [ ] Every material statement is identifiable as `PUBLIC_CONTEXT`, `PERSONAL_EXPERIENCE`, `SYNTHETIC_DATA`, `DERIVED_ANALYSIS`, or `UNKNOWN`.

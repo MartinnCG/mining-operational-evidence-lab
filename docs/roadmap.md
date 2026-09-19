@@ -30,6 +30,20 @@ Evidence:
 
 Exit: every registered case can be inspected against the same mandatory structure and publication boundary.
 
+## M0.2 — Evidence workflow
+
+**Question:** Can field learning become decision-relevant evidence without turning the repository into a diary or exposing live operations?
+
+Evidence:
+
+- private daily capture template;
+- controlled vocabulary for recurring information friction;
+- end-of-swing triage and sanitization procedure;
+- company-value, confidentiality, testability, reproducibility, and claims gates;
+- explicit rule that completed private forms are never committed.
+
+Exit: one sanitized pattern can move from private capture to a scoped GitHub issue with its operational user, decision, evidence need, metric, and boundary identified.
+
 ## M1 — Shutdown handover contract
 
 **Question:** What minimum state must a synthetic incoming role receive?

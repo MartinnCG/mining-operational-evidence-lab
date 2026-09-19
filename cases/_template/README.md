@@ -47,7 +47,20 @@ Do not add exact dates, crew names, employers, rosters, incidents, production in
 - [Question]
 - [Question]
 
-## 5. Publication boundary
+## 5. Company-value hypothesis
+
+| Element | Definition |
+|---|---|
+| Operational user | [Who would use the output?] |
+| Decision supported | [What prioritization or understanding could improve?] |
+| Information friction | [What is late, missing, ambiguous, fragmented, or hard to compare?] |
+| Evidence required | [What minimum fields or signals are needed?] |
+| Inspectable measure | [How will the synthetic experiment pass or fail?] |
+| Existing process complemented | [Handover, planning, work management, reporting, or other] |
+
+No commercial, safety, productivity, or operational benefit is claimed until supported.
+
+## 6. Publication boundary
 
 ### Allowed
 
@@ -66,7 +79,7 @@ Do not add exact dates, crew names, employers, rosters, incidents, production in
 - live or security-relevant access and location detail;
 - any statement implying employer approval or deployment.
 
-## 6. Candidate learning themes
+## 7. Candidate learning themes
 
 These are hypotheses to examine, not descriptions of site performance.
 
@@ -74,9 +87,10 @@ These are hypotheses to examine, not descriptions of site performance.
 |---|---|---|
 | [Theme] | [Reason] | `UNASSESSED` |
 
-## 7. Planned evidence artifacts
+## 8. Planned evidence artifacts
 
 - [ ] Sanitized problem definition
+- [ ] Company-value hypothesis and measurable acceptance criteria
 - [ ] Synthetic scenario manifest
 - [ ] Event/state contract
 - [ ] Validation rules
@@ -84,18 +98,18 @@ These are hypotheses to examine, not descriptions of site performance.
 - [ ] Findings and limitations
 - [ ] Cross-case comparison eligibility
 
-## 8. Findings
+## 9. Findings
 
 No findings are claimed while the case remains `REGISTERED`.
 
-## 9. Limitations
+## 10. Limitations
 
 - The case does not reproduce the named operation.
 - Synthetic results cannot establish actual site performance.
 - Personal experience does not constitute employer endorsement.
 - Missing information remains `UNKNOWN`.
 
-## 10. Change log
+## 11. Change log
 
 | Date | Change | Maturity transition |
 |---|---|---|
