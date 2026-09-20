@@ -1,6 +1,6 @@
 case_id: CASE-001
-record_version: 1.0.0
-case_status: FRAMED
+record_version: 1.1.0
+case_status: DOCUMENTED
 publication_mode: sanitized_personal_experience
 
 context:
@@ -8,9 +8,21 @@ context:
   jurisdiction: Queensland, Australia
   experience_year: 2026
   duration_days: 9
+  shift_pattern: day_shift
+  typical_shift_hours: "06:00-18:00"
   role: Trade Assistant
   exact_dates_published: false
   employer_published: false
+
+record_scope:
+  purpose: Present a complete, sanitized account of the nine-day shutdown experience.
+  chronology_basis: Retrospective reconstruction from the participant's own recall.
+  interpretation_rule: Daily sequence is informative professional evidence, not an official site record.
+  omitted_information:
+    - Exact dates and employer identity
+    - Names of workers, supervisors, and crews
+    - Work orders, drawings, permits, and isolation details
+    - Equipment specifications, lifting plans, quantities, and internal site information
 
 source_basis:
   source_type: retrospective_self_report
@@ -36,6 +48,264 @@ claim_vocabulary:
     - withheld_private
     - excluded_unverified
 
+daily_reconstruction:
+  - day_number: 1
+    shutdown_phase: pre_shutdown_support
+    work_area: North Plant
+    workstream: Structural hot-work support
+    trades_supported:
+      - Boilermaker
+    personal_contribution:
+      - Prepared the immediate work area and helped set up equipment for the task.
+      - Maintained active fire-watch support while structural plates were welded.
+      - Kept access and the surrounding area orderly during the work.
+    coordination_and_dependencies:
+      - Confirmed work-area familiarisation before starting.
+      - Checked that required personnel and basic work resources were available.
+    constraints_observed:
+      - Restricted access and limited body positioning around the plant structure.
+      - Work required heightened awareness because this occurred before the shutdown commenced.
+    safety_observations:
+      - Barricading and caution or danger demarcation were used around the work area.
+      - Welding leads and the surrounding work area were visually checked.
+      - These observations do not assert permit, isolation, or safety authority.
+    outcome: Completed the assigned support work and gained initial familiarity with the plant environment.
+    professional_learning: Developed early awareness of access constraints, visible hazards, and the importance of work-area familiarisation.
+    evidence_status: directly_recalled
+    confidence: high
+    limitations:
+      - No structural component, permit, isolation, or welding specification is identified.
+
+  - day_number: 2
+    shutdown_phase: shutdown_execution
+    work_area: North Plant
+    workstream: Cyclone and mesh-flooring removal
+    trades_supported:
+      - Fitter
+      - Rigger
+    personal_contribution:
+      - Assisted with access preparation around the work front.
+      - Supported the start of cyclone disassembly activities.
+      - Helped remove sections of existing mesh flooring so components could be moved through the area.
+    coordination_and_dependencies:
+      - Worked in sequence with fitters preparing components and riggers controlling their movement.
+      - Maintained access and material readiness for the next activity.
+    constraints_observed:
+      - Congested plant geometry limited access and movement.
+      - Progress depended on the order in which flooring and equipment components could be released.
+    safety_observations:
+      - Followed the work-front controls and directions established by the responsible trades and supervision.
+      - No lifting, isolation, or permit authority is claimed.
+    outcome: The removal sequence commenced and the work area was progressively opened for component movement.
+    professional_learning: Began understanding how access preparation and trade sequencing control progress during a shutdown.
+    evidence_status: reconstructed_sequence
+    confidence: medium
+    limitations:
+      - The activity is directly recalled; its allocation to this exact day is retrospectively reconstructed.
+
+  - day_number: 3
+    shutdown_phase: shutdown_execution
+    work_area: North Plant
+    workstream: Mesh-flooring removal and controlled movement
+    trades_supported:
+      - Fitter
+      - Rigger
+    personal_contribution:
+      - Continued assisting with removal of old mesh-flooring panels.
+      - Helped clear, organise, and prepare panels and materials for controlled movement.
+      - Supported housekeeping and access while riggers lowered removed panels.
+    coordination_and_dependencies:
+      - Maintained the sequence between panel release, area clearance, and rigging movement.
+      - Waited for the responsible trade or rigging step before advancing the next support task.
+    constraints_observed:
+      - Limited space made manual handling and tool movement more difficult.
+      - Work could not advance independently of rigging availability and movement control.
+    safety_observations:
+      - Remained outside controlled movement paths and followed directions from the responsible riggers.
+      - No lifting method or exclusion-zone specification is published.
+    outcome: Additional old flooring sections were removed and transferred from the work front.
+    professional_learning: Recognised that a Trade Assistant adds value by keeping the next safe support action ready without interfering with trade authority.
+    evidence_status: reconstructed_sequence
+    confidence: medium
+    limitations:
+      - The sequence is plausible from direct recall but is not supported by a daily operational record.
+
+  - day_number: 4
+    shutdown_phase: shutdown_execution
+    work_area: North Plant
+    workstream: Replacement mesh-flooring installation
+    trades_supported:
+      - Fitter
+      - Rigger
+    personal_contribution:
+      - Helped receive and position new mesh-flooring panels at the work front.
+      - Assisted fitters with material handling, area readiness, and access during replacement.
+      - Continued housekeeping as removed materials were exchanged for new panels.
+    coordination_and_dependencies:
+      - Worked in sequence with riggers bringing new panels into the area.
+      - Supported fitters after each panel became available and movement was complete.
+    constraints_observed:
+      - Installation depended on fit, access, and the controlled arrival of replacement panels.
+      - Restricted working space created friction between people, tools, and materials.
+    safety_observations:
+      - Followed trade instructions and work-front controls during panel movement and positioning.
+      - No claim is made regarding panel fastening, lifting execution, or final acceptance.
+    outcome: Replacement flooring progressed and usable access was progressively restored.
+    professional_learning: Saw how material flow and clear role boundaries reduce delays in a multi-trade work front.
+    evidence_status: reconstructed_sequence
+    confidence: medium
+    limitations:
+      - Exact panel counts, installation order, and fastening details are not recalled or published.
+
+  - day_number: 5
+    shutdown_phase: shutdown_execution
+    work_area: North Plant
+    workstream: Mesh-flooring completion and pipework support
+    trades_supported:
+      - Fitter
+      - Rigger
+    personal_contribution:
+      - Continued support around the replacement flooring and cyclone-related work front.
+      - Assisted with preparation and movement of materials for the beginning of pipework-related tasks.
+      - Identified that required bolts and nuts were not ready and helped arrange their availability before the next task was delayed.
+    coordination_and_dependencies:
+      - Linked material readiness with the next fitter task.
+      - Supported the transition from access and flooring work toward pipework and component installation.
+    constraints_observed:
+      - Progress depended on correct materials becoming available at the required time.
+      - Drawings and verbal explanations did not always translate immediately into an obvious physical sequence in the plant.
+    safety_observations:
+      - Worked within the directions and controls of the responsible trades and supervision.
+      - No technical installation, inspection, or sign-off authority is claimed.
+    outcome: The work front advanced toward the next installation stage with a missing-fixings dependency addressed.
+    professional_learning: Learned that small material dependencies can control the real pace of shutdown work.
+    evidence_status: reconstructed_sequence
+    confidence: medium
+    limitations:
+      - The missing-fixings observation is directly recalled; its exact day within the North Plant workstream is reconstructed.
+
+  - day_number: 6
+    shutdown_phase: shutdown_execution
+    work_area: South Plant thickener work area
+    workstream: Boilermaker and hot-work support
+    trades_supported:
+      - Boilermaker
+    personal_contribution:
+      - Transitioned to support a three-boilermaker crew in the thickener work area.
+      - Helped set up work equipment, materials, and consumables for plate-replacement activities.
+      - Performed Trade Assistant and fire-watch support as directed.
+    coordination_and_dependencies:
+      - Established the material and equipment flow needed to support several boilermakers at once.
+      - Responded to changing requests while maintaining the work area.
+    constraints_observed:
+      - Supporting three tradespeople simultaneously increased workload and coordination pressure.
+      - Access and work positioning remained constrained.
+    safety_observations:
+      - Maintained attention to the hot-work area and surrounding conditions within the assigned support role.
+      - No permit, atmospheric, isolation, welding, or inspection authority is claimed.
+    outcome: The thickener work front was established and plate-related maintenance progressed.
+    professional_learning: Began adapting task prioritisation to simultaneous requests from multiple tradespeople.
+    evidence_status: directly_recalled
+    confidence: high
+    limitations:
+      - Plate specifications and the exact thickener component are not asserted.
+
+  - day_number: 7
+    shutdown_phase: shutdown_execution
+    work_area: South Plant thickener work area
+    workstream: Sustained plate-replacement support
+    trades_supported:
+      - Boilermaker
+    personal_contribution:
+      - Continued equipment setup, material supply, housekeeping, and fire-watch support.
+      - Kept commonly requested consumables and tools available to reduce interruptions.
+      - Adjusted priorities while assisting three boilermakers working within the same workstream.
+    coordination_and_dependencies:
+      - Balanced competing requests according to immediate work-front needs and trade direction.
+      - Maintained readiness between active hot-work tasks and material requirements.
+    constraints_observed:
+      - Sustained physical demand and simultaneous requests increased the risk of avoidable friction.
+      - Work pace depended on access, consumables, and completion of preceding plate work.
+    safety_observations:
+      - Preserved role clarity and remained attentive to changing work-area conditions.
+      - No trade work, quality acceptance, or control ownership is claimed.
+    outcome: Work continued without the support function becoming a persistent material bottleneck.
+    professional_learning: Improved communication, anticipation, and prioritisation under sustained production pressure.
+    evidence_status: reconstructed_sequence
+    confidence: medium
+    limitations:
+      - The repeated support activities are directly recalled; their exact day-by-day distribution is reconstructed.
+
+  - day_number: 8
+    shutdown_phase: shutdown_execution
+    work_area: South Plant thickener work area
+    workstream: Plate-work support and work-front closeout
+    trades_supported:
+      - Boilermaker
+    personal_contribution:
+      - Continued Trade Assistant and fire-watch duties for the boilermaker crew.
+      - Supported final material requests and progressive housekeeping around the work front.
+      - Helped leave the area and remaining resources ready for the next activity.
+    coordination_and_dependencies:
+      - Monitored outstanding support needs as the assigned work approached completion.
+      - Communicated status and immediate requirements within the crew.
+    constraints_observed:
+      - Accumulated physical and mental fatigue affected the final days of the shutdown.
+      - Closeout still depended on completing preceding trade work and clearing the area in sequence.
+    safety_observations:
+      - Maintained attention to assigned controls despite accumulated fatigue.
+      - No completion, inspection, or return-to-service authority is claimed.
+    outcome: The assigned thickener support work reached a successful closeout from the participant's perspective.
+    professional_learning: Recognised fatigue management and concise communication as operational requirements, not personal afterthoughts.
+    evidence_status: reconstructed_sequence
+    confidence: medium
+    limitations:
+      - Successful closeout describes personal participation and does not constitute formal completion evidence.
+
+  - day_number: 9
+    shutdown_phase: shutdown_execution
+    work_area: South Plant
+    workstream: Cyclone installation support
+    trades_supported:
+      - Fitter
+      - Rigger
+    personal_contribution:
+      - Supported the final cyclone installation work in the South Plant area.
+      - Assisted with area readiness, materials, housekeeping, and tasks allocated by the responsible trades.
+      - Helped maintain continuity during the final installation stage.
+    coordination_and_dependencies:
+      - Worked around the sequence established by fitters, riggers, and supervision.
+      - Supported the final work front after completion of the thickener assignment.
+    constraints_observed:
+      - Final installation remained dependent on component positioning, access, and preceding work.
+      - Fatigue accumulated across the nine-day shutdown.
+    safety_observations:
+      - Continued to follow work-front controls and competent-person direction.
+      - No lifting, fitting, inspection, commissioning, or return-to-service authority is claimed.
+    outcome: Completed the final assigned shift supporting cyclone installation activities.
+    professional_learning: Finished the shutdown with greater plant awareness, technical vocabulary, and confidence communicating with trades and supervision.
+    evidence_status: directly_recalled
+    confidence: high
+    limitations:
+      - Technical installation steps and formal completion status are not published.
+
+cross_shift_observations:
+  repeated_patterns:
+    - Pre-start communication and work-area familiarisation
+    - High-intensity work sustained across long day shifts
+    - Progress controlled by access, trade sequence, materials, and preceding tasks
+    - Continuous housekeeping and readiness as core Trade Assistant contributions
+  strongest_professional_evidence:
+    statement: Identified a missing-fixings dependency and helped arrange availability before it delayed the next task.
+    evidence_status: directly_recalled
+    confidence: high
+  development_over_nine_days:
+    - Improved navigation and awareness within a complex processing-plant environment.
+    - Improved communication with tradespeople and supervisors.
+    - Built practical vocabulary around shutdown maintenance activities.
+    - Became more effective at anticipating tools, materials, access, and housekeeping needs.
+    - Learned to adapt when the planned sequence changed without crossing role or authority boundaries.
+
 claims:
   - claim_id: PE-001
     evidence_class: PERSONAL_EXPERIENCE
@@ -51,43 +321,43 @@ claims:
   - claim_id: PE-002
     evidence_class: PERSONAL_EXPERIENCE
     subject: trades_supported
-    statement: Supported fitters, riggers, and boilermakers during generalized maintenance activities.
+    statement: Supported fitters, riggers, and boilermakers across generalized North Plant and South Plant maintenance workstreams.
     evidence_status: directly_recalled
     confidence: high
     publication_status: published_sanitized
     limitations:
-      - No crew identities or work-front locations are published.
+      - Crew identities and precise work-front identifiers are not published.
 
   - claim_id: PE-003
     evidence_class: PERSONAL_EXPERIENCE
     subject: mesh_flooring_workstream
-    statement: Supported removal and replacement of mesh flooring sections and the associated movement sequence.
+    statement: Supported removal and replacement of mesh-flooring panels in sequence with fitter and rigging activities.
     evidence_status: confirmed_activity
     confidence: high
     publication_status: published_sanitized
     limitations:
-      - Daily allocation is reconstructed and therefore withheld.
+      - Exact daily allocation is retrospectively reconstructed.
       - Component specifications and lifting details are not published.
 
   - claim_id: PE-004
     evidence_class: PERSONAL_EXPERIENCE
-    subject: component_and_pipework_support
-    statement: Assisted around component and pipework-related maintenance.
+    subject: cyclone_and_pipework_support
+    statement: Assisted around cyclone disassembly or installation and pipework-related maintenance activities.
     evidence_status: partially_recalled
     confidence: medium
     publication_status: published_sanitized
     limitations:
-      - Equipment identity, sequence, and technical scope are not asserted.
+      - Technical sequence, specifications, and formal completion are not asserted.
 
   - claim_id: PE-005
     evidence_class: PERSONAL_EXPERIENCE
     subject: hot_work_support
-    statement: Provided work-area preparation, housekeeping, material readiness, and hot-work support.
+    statement: Provided work-area preparation, housekeeping, material readiness, and fire-watch support to boilermakers.
     evidence_status: directly_recalled
     confidence: high
     publication_status: published_sanitized
     limitations:
-      - Permit, isolation, and site-control details are excluded.
+      - Permit, isolation, welding, and site-control details are excluded.
 
   - claim_id: PE-006
     evidence_class: PERSONAL_EXPERIENCE
@@ -101,16 +371,16 @@ claims:
 
 excluded_claims:
   - claim_id: EX-001
-    subject: exact_daily_sequence
-    evidence_status: reconstructed_sequence
-    publication_status: withheld_private
-    reason: A reconstructed chronology is not a verified operational record.
-
-  - claim_id: EX-002
-    subject: inferred_tools_components_and_controls
+    subject: inferred_technical_details
     evidence_status: contextual_inference
     publication_status: excluded_unverified
-    reason: Operational plausibility is insufficient for a factual public claim.
+    reason: Operational plausibility is insufficient to assert tools, specifications, controls, or technical methods not directly recalled.
+
+  - claim_id: EX-002
+    subject: official_operational_completion
+    evidence_status: unknown
+    publication_status: excluded_unverified
+    reason: Personal participation does not establish formal completion, inspection, commissioning, or return-to-service status.
 
 design_hypotheses:
   - hypothesis_id: HYP-001
@@ -128,4 +398,5 @@ authority_boundary:
   confirms_isolation: false
   approves_permit: false
   declares_safe: false
+  confirms_completion: false
   statement: Evidence and professional-learning record only. Follow site procedures and competent-person authority.
