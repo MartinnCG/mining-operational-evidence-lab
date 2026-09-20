@@ -1,6 +1,6 @@
 # Mining Operational Evidence Lab
 
-A public evidence-design laboratory that converts mining shutdown experience into reproducible, synthetic operational case studies.
+A learning and portfolio repository that turns mining shutdown experience into reproducible, synthetic data and system-design case studies.
 
 ## Purpose
 
@@ -10,11 +10,9 @@ This repository translates field learning from Queensland mining and shutdown en
 
 The repository uses named sites only as public professional context. It does not publish real operational records.
 
-## Value to an operating company
+## Practical question
 
-The intended value is practical: complement existing shutdown controls with clearer information state, not replace operational systems or site authority.
-
-A mature case should help a company examine whether it can:
+The project explores whether structured information can complement existing shutdown controls without replacing operational systems or site authority. A developed case should help examine whether it can:
 
 - reduce ambiguity when a work front changes hands;
 - expose missing, stale, or conflicting evidence before it becomes a decision problem;
@@ -28,10 +26,10 @@ Every artifact must connect to a decision, a user, and an inspectable measure. T
 
 This repository serves two deliberately separate audiences:
 
-1. **Professional audience:** clients, recruiters, and companies evaluating Martin's ability to connect field experience, data science, system architecture, evidence governance, and AI.
+1. **Portfolio audience:** recruiters, technical readers, and companies interested in Martin's progression across field experience, data science and system design.
 2. **Operational persona inside a synthetic case:** an incoming supervisor who must understand a work front in under one minute.
 
-The repository is a professional evidence asset, not a claim that any mine currently operates this system.
+The repository is a portfolio record, not a claim that any mine currently operates this system.
 
 ## Evidence model
 
@@ -62,9 +60,9 @@ The controlled workflow is documented in [Operating Workflow](docs/operating-wor
 
 The public repository stays deliberately small: definitions, synthetic inputs, validation code, findings, and limitations. It does not become a storage location for daily notes.
 
-## What this project is intended to prove
+## What this project practises
 
-Through inspectable artifacts rather than unsupported biography, the repository demonstrates an ability to:
+Through inspectable artifacts, the work is intended to develop and show the ability to:
 
 - recognize recurring operational-information problems from field experience;
 - abstract those problems without publishing confidential operational information;
@@ -78,13 +76,13 @@ Through inspectable artifacts rather than unsupported biography, the repository 
 
 | Repository | Role |
 |---|---|
-| [Operational Systems Design](https://github.com/MartinnCG/operational-systems-design) | Central architecture and portfolio governance |
+| [Operational Systems Design](https://github.com/MartinnCG/operational-systems-design) | Portfolio index and shared design notes |
 | [Edge Operational Evidence System](https://github.com/MartinnCG/edge-operational-evidence-system) | Evidence capture, integrity, reliability, and edge patterns |
 | [Corredor de Altura](https://github.com/MartinnCG/corredor-altura) | Geospatial data-science application |
-| [AI/ML Systems Architecture Labs](https://github.com/MartinnCG/ai-ml-systems-architecture-labs) | Governed AI/ML patterns |
+| [AI/ML Systems Architecture Labs](https://github.com/MartinnCG/ai-ml-systems-architecture-labs) | AI/ML experiments with explicit controls |
 | **Mining Operational Evidence Lab** | Mining-domain translation and synthetic operational cases |
 
-## First architectural decisions
+## Current design decisions
 
 - **Case unit:** one bounded shutdown experience and its later synthetic analytical model.
 - **Handover unit:** work front, which may contain multiple tasks and dependencies.
