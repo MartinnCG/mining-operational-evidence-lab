@@ -1,0 +1,131 @@
+case_id: CASE-001
+record_version: 1.0.0
+case_status: FRAMED
+publication_mode: sanitized_personal_experience
+
+context:
+  public_site_label: Hail Creek CHPP
+  jurisdiction: Queensland, Australia
+  experience_year: 2026
+  duration_days: 9
+  role: Trade Assistant
+  exact_dates_published: false
+  employer_published: false
+
+source_basis:
+  source_type: retrospective_self_report
+  private_source_committed: false
+  documentary_verification: none
+  operational_record_status: not_published
+
+claim_vocabulary:
+  evidence_status:
+    - directly_recalled
+    - confirmed_activity
+    - partially_recalled
+    - reconstructed_sequence
+    - contextual_inference
+    - unknown
+  confidence:
+    - high
+    - medium
+    - low
+    - unknown
+  publication_status:
+    - published_sanitized
+    - withheld_private
+    - excluded_unverified
+
+claims:
+  - claim_id: PE-001
+    evidence_class: PERSONAL_EXPERIENCE
+    subject: participation_duration_and_role
+    statement: Participated as a Trade Assistant in a nine-day shutdown during 2026.
+    evidence_status: directly_recalled
+    confidence: high
+    publication_status: published_sanitized
+    limitations:
+      - Exact dates and employer identity are withheld.
+      - No documentary verification is published.
+
+  - claim_id: PE-002
+    evidence_class: PERSONAL_EXPERIENCE
+    subject: trades_supported
+    statement: Supported fitters, riggers, and boilermakers during generalized maintenance activities.
+    evidence_status: directly_recalled
+    confidence: high
+    publication_status: published_sanitized
+    limitations:
+      - No crew identities or work-front locations are published.
+
+  - claim_id: PE-003
+    evidence_class: PERSONAL_EXPERIENCE
+    subject: mesh_flooring_workstream
+    statement: Supported removal and replacement of mesh flooring sections and the associated movement sequence.
+    evidence_status: confirmed_activity
+    confidence: high
+    publication_status: published_sanitized
+    limitations:
+      - Daily allocation is reconstructed and therefore withheld.
+      - Component specifications and lifting details are not published.
+
+  - claim_id: PE-004
+    evidence_class: PERSONAL_EXPERIENCE
+    subject: component_and_pipework_support
+    statement: Assisted around component and pipework-related maintenance.
+    evidence_status: partially_recalled
+    confidence: medium
+    publication_status: published_sanitized
+    limitations:
+      - Equipment identity, sequence, and technical scope are not asserted.
+
+  - claim_id: PE-005
+    evidence_class: PERSONAL_EXPERIENCE
+    subject: hot_work_support
+    statement: Provided work-area preparation, housekeeping, material readiness, and hot-work support.
+    evidence_status: directly_recalled
+    confidence: high
+    publication_status: published_sanitized
+    limitations:
+      - Permit, isolation, and site-control details are excluded.
+
+  - claim_id: PE-006
+    evidence_class: PERSONAL_EXPERIENCE
+    subject: material_dependency_observation
+    statement: Recognized a missing-fixings dependency before it affected the next task and helped arrange availability.
+    evidence_status: directly_recalled
+    confidence: high
+    publication_status: published_sanitized
+    limitations:
+      - No date, work order, person, supplier, quantity, or equipment is identified.
+
+excluded_claims:
+  - claim_id: EX-001
+    subject: exact_daily_sequence
+    evidence_status: reconstructed_sequence
+    publication_status: withheld_private
+    reason: A reconstructed chronology is not a verified operational record.
+
+  - claim_id: EX-002
+    subject: inferred_tools_components_and_controls
+    evidence_status: contextual_inference
+    publication_status: excluded_unverified
+    reason: Operational plausibility is insufficient for a factual public claim.
+
+design_hypotheses:
+  - hypothesis_id: HYP-001
+    statement: Sequenced multi-trade work benefits from explicit dependency-state visibility during handover.
+    status: pending_synthetic_test
+  - hypothesis_id: HYP-002
+    statement: Material readiness should be represented as an owned dependency rather than hidden inside free text.
+    status: pending_synthetic_test
+  - hypothesis_id: HYP-003
+    statement: Reported progress, evidence disposition, and authority must remain separate dimensions.
+    status: represented_in_contract_v1
+
+authority_boundary:
+  authorizes_work: false
+  confirms_isolation: false
+  approves_permit: false
+  declares_safe: false
+  statement: Evidence and professional-learning record only. Follow site procedures and competent-person authority.

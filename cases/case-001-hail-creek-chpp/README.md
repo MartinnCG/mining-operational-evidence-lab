@@ -1,8 +1,8 @@
 # Case 001 — Hail Creek CHPP
 
-> **Case status:** `REGISTERED`  
+> **Case status:** `FRAMED`  
 > **Case mode:** retrospective  
-> **Operational records:** none published; future examples must be synthetic  
+> **Publication mode:** sanitized personal experience plus synthetic modelling  
 > **Authority:** no operational, safety, permit, engineering, or statutory authority is claimed
 
 ## 1. Case identity
@@ -11,9 +11,9 @@
 |---|---|---|
 | Case ID | `CASE-001` | Repository-owned |
 | Public context | Hail Creek CHPP, Queensland | `PUBLIC_CONTEXT` + `PERSONAL_EXPERIENCE` |
-| Experience period | Nine-day shutdown; exact dates withheld | `PERSONAL_EXPERIENCE` |
-| Participation scope | Martin participated in this shutdown; detailed duties are not yet recorded publicly | `PERSONAL_EXPERIENCE` |
-| Maturity | `REGISTERED` | Repository-owned |
+| Experience period | Nine-day shutdown during 2026; exact dates withheld | `PERSONAL_EXPERIENCE` |
+| Role | Trade Assistant | `PERSONAL_EXPERIENCE` |
+| Maturity | `FRAMED` | Repository-owned |
 
 ## 2. Public-context source register
 
@@ -21,66 +21,104 @@
 |---|---|---|
 | [Glencore Australia — Current operations](https://www.glencore.com.au/operations-and-projects/coal/current-operations) | Hail Creek Open Cut is publicly identified as an operation | 2026-09-19 |
 
-The CHPP context and nine-day participation are Martin's limited personal-experience claims. The public source does not verify his employment, duties, or any shutdown event.
+The public source does not verify Martin's employment, duties, shutdown dates, work fronts, or operational observations.
 
-## 3. Personal-experience statement
+## 3. Limited personal-experience statement
 
-> This was Martin's first shutdown in the professional sequence represented by this repository and lasted nine days.
+Martin participated as a Trade Assistant in a nine-day shutdown during 2026. His work involved supporting fitters, riggers, and boilermakers across generalized maintenance activities.
 
-No real operational timeline, personnel, employer identity, work-front state, incident, permit, isolation, or maintenance detail is published.
+The sanitized workstream categories retained for professional learning are:
 
-## 4. Purpose
+- support during removal and replacement of mesh flooring sections;
+- coordination support while riggers moved removed and replacement sections;
+- assistance around component and pipework-related maintenance;
+- work-area preparation, material and tool readiness, housekeeping, and hot-work support;
+- recognition of a missing-fixings dependency before it affected the next task.
 
-Case 001 will establish the retrospective method: how a completed field experience can be converted into a sanitized problem definition and then into a fictional, testable shutdown-handover scenario.
+These statements describe Martin's participation at a high level. They do not establish the site's maintenance scope, equipment condition, crew performance, safety status, or shutdown outcome.
 
-### Primary question
+## 4. Evidence treatment
 
-> Can a retrospective shutdown experience produce a useful synthetic evidence model without reconstructing or implying facts about the real operation?
+The private retrospective contains more detail than this public case. It is not committed.
 
-## 5. Company-value hypothesis
+| Claim type | Public treatment |
+|---|---|
+| Directly recalled participation | Published only at sanitized workstream level |
+| Confirmed activity with uncertain daily allocation | Activity retained; day-by-day allocation withheld |
+| Reconstructed sequence | Used to support private reflection, not presented as a site record |
+| Contextual inference | Excluded from factual claims |
+| Unknown detail | Remains unknown |
 
-| Element | Initial hypothesis |
+See [`case-record.yaml`](case-record.yaml) for the machine-readable claim register and [`evidence-boundaries.md`](evidence-boundaries.md) for the interpretation rules.
+
+## 5. Sanitized analytical question
+
+> Can a shutdown handover record distinguish reported progress, supporting evidence, material dependencies, ownership, and uncertainty without implying operational authority?
+
+This question is motivated by personal experience but does not assert that Hail Creek CHPP had a defective process.
+
+## 6. Generalized learning patterns
+
+The retrospective produced three design hypotheses:
+
+1. **Sequenced-trade visibility:** work involving multiple trades benefits from a visible dependency sequence rather than an unqualified complete/incomplete label.
+2. **Material-readiness visibility:** missing fixings, tools, or consumables should appear as explicit dependencies with an owner and next action.
+3. **Evidence-state separation:** reported progress should remain distinct from evidence-supported progress and from authorization to proceed.
+
+These are transferable hypotheses for synthetic testing. They are not findings about the named site.
+
+## 7. Company-value hypothesis
+
+| Element | Framed hypothesis |
 |---|---|
 | Operational user | Incoming supervisor or shutdown coordinator |
 | Decision supported | Which work front requires clarification or follow-up first? |
-| Information friction | Reported state can be difficult to separate from evidence-supported state |
-| Evidence required | State assertion, evidence reference, timestamp, blocker, owner, and next action |
-| Inspectable measure | Synthetic reviewer identifies unsupported or conflicting states without inspecting raw events |
+| Information friction | Progress, dependencies, evidence, and ownership can become difficult to distinguish during handover |
+| Evidence required | State assertion, evidence reference, timestamp, blocker, owner, next action, and limitation |
+| Inspectable measure | Synthetic reviewer identifies unsupported, conflicting, stale, or blocked states |
 | Existing process complemented | Shift handover and shutdown coordination |
 
-This is a design hypothesis only. It does not describe Hail Creek CHPP performance or claim a realised benefit.
+No saving, safety improvement, productivity gain, or realized operational benefit is claimed.
 
-## 6. Publication boundary
+## 8. Model connection
 
-All future actors, events, timestamps, blockers, evidence records, states, and outcomes will be fictional. The site name supplies context only.
+Case 001 motivates the repository's [Synthetic Shutdown Handover Contract v1](../../contracts/shutdown-handover/v1/README.md). The contract uses entirely fictional actors, timestamps, work fronts, interruptions, evidence items, and outcomes.
 
-## 7. Candidate learning themes
+The real retrospective supplies only the generalized design question. It is not converted into synthetic truth and is not used as a site dataset.
 
-No site-specific problem is asserted at registration. Themes will be added only after Martin completes a structured, sanitized retrospective.
+## 9. Publication and authority boundary
 
-## 8. Planned evidence artifacts
+- No exact operational dates, crew identities, real work-front states, permits, isolations, drawings, work orders, photographs, or internal records are published.
+- The employer identity and private daily reconstruction remain outside the repository.
+- The case does not authorize work, confirm isolation, approve a permit, declare an area safe, or represent a site-approved system.
+- Hail Creek CHPP is used as public context only; no endorsement or review is implied.
 
-- [ ] Sanitized retrospective interview
-- [ ] Company-value hypothesis reviewed against the retrospective
-- [ ] Generalized pattern register
-- [ ] Synthetic scenario manifest
-- [ ] Event/state contract examples
-- [ ] Validation rules and tests
-- [ ] Findings and limitations
+## 10. Evidence artifacts
 
-## 9. Findings
+- [x] Private retrospective completed and retained outside GitHub
+- [x] Sanitized personal-experience statement
+- [x] Machine-readable claim register
+- [x] Evidence and publication boundary
+- [x] Generalized design hypotheses
+- [x] Synthetic handover contract linked
+- [ ] Case-specific synthetic scenario manifest
+- [ ] Reproducible case analysis and findings
 
-No findings are claimed while the case remains `REGISTERED`.
+## 11. Findings and limitations
 
-## 10. Limitations
+The case is framed but has not yet produced case-specific synthetic findings. Current outputs demonstrate claim separation and problem formulation only.
 
-- The case does not describe Hail Creek CHPP operations or performance.
-- Participation duration alone does not evidence detailed duties or competence.
-- Future synthetic results cannot establish actual site conditions.
-- The project is independent and is not presented as commissioned, reviewed, approved, or endorsed by the site owner, operator, employer, or contractors.
+Limitations:
 
-## 11. Change log
+- the source is retrospective self-reporting;
+- the public version deliberately removes daily and operational detail;
+- reconstructed timing cannot verify a real sequence;
+- synthetic testing cannot establish actual site conditions or benefits;
+- professional learning does not constitute engineering, safety, or operational authority.
+
+## 12. Change log
 
 | Date | Change | Maturity transition |
 |---|---|---|
 | 2026-09-19 | Case registered from confirmed high-level personal context | — → `REGISTERED` |
+| 2026-09-20 | Sanitized retrospective, claim register, hypotheses, and contract link added | `REGISTERED` → `FRAMED` |
