@@ -1,0 +1,184 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/MartinnCG/mining-operational-evidence-lab/contracts/shutdown-handover/v1/schema.json",
+  "title": "Synthetic Shutdown Handover Contract v1",
+  "description": "A public synthetic contract for handing over work-front evidence state without operational or safety authority.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "contract_version",
+    "record_id",
+    "scenario_id",
+    "synthetic",
+    "generated_at",
+    "handover_at",
+    "shift_window",
+    "work_front",
+    "incoming_view",
+    "assertions",
+    "evidence_items",
+    "interruptions",
+    "authority_boundary",
+    "provenance",
+    "limitations"
+  ],
+  "properties": {
+    "contract_version": {"const": "1.0.0"},
+    "record_id": {"type": "string", "pattern": "^HANDOVER-SYN-[A-Z0-9-]+$"},
+    "scenario_id": {"type": "string", "pattern": "^SCENARIO-SYN-[A-Z0-9-]+$"},
+    "synthetic": {"const": true},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "handover_at": {"type": "string", "format": "date-time"},
+    "shift_window": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["start", "end"],
+      "properties": {
+        "start": {"type": "string", "format": "date-time"},
+        "end": {"type": "string", "format": "date-time"}
+      }
+    },
+    "work_front": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "label", "scope_summary", "overall_state", "change_since_last"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^WF-SYN-[A-Z0-9-]+$"},
+        "label": {"type": "string", "minLength": 1},
+        "scope_summary": {"type": "string", "minLength": 1},
+        "overall_state": {
+          "enum": ["not_started", "in_progress", "paused", "reported_complete", "evidence_complete", "unknown"]
+        },
+        "change_since_last": {"type": "string", "minLength": 1}
+      }
+    },
+    "incoming_view": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["headline", "priority_condition", "blockers", "next_actions"],
+      "properties": {
+        "headline": {"type": "string", "minLength": 1},
+        "priority_condition": {
+          "enum": ["none", "blocker", "evidence_gap", "ownership_gap", "state_change", "conflict", "unknown"]
+        },
+        "blockers": {"type": "array", "items": {"type": "string"}},
+        "next_actions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["action_id", "description", "owner_role", "timing"],
+            "properties": {
+              "action_id": {"type": "string", "pattern": "^ACT-SYN-[A-Z0-9-]+$"},
+              "description": {"type": "string", "minLength": 1},
+              "owner_role": {"type": "string", "minLength": 1},
+              "timing": {"enum": ["immediate", "next_shift", "scheduled", "unknown"]}
+            }
+          }
+        }
+      }
+    },
+    "assertions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "assertion_id",
+          "subject",
+          "reported_state",
+          "evidence_disposition",
+          "evidence_refs",
+          "confidence",
+          "observed_at",
+          "limitations"
+        ],
+        "properties": {
+          "assertion_id": {"type": "string", "pattern": "^AST-SYN-[A-Z0-9-]+$"},
+          "subject": {"type": "string", "minLength": 1},
+          "reported_state": {
+            "enum": ["not_started", "in_progress", "paused", "reported_complete", "evidence_complete", "unknown"]
+          },
+          "evidence_disposition": {
+            "enum": ["supported", "pending", "conflicting", "missing", "not_applicable"]
+          },
+          "evidence_refs": {
+            "type": "array",
+            "items": {"type": "string", "pattern": "^EV-SYN-[A-Z0-9-]+$"},
+            "uniqueItems": true
+          },
+          "confidence": {"enum": ["high", "medium", "low", "unknown"]},
+          "observed_at": {"type": "string", "format": "date-time"},
+          "limitations": {"type": "array", "minItems": 1, "items": {"type": "string"}}
+        }
+      }
+    },
+    "evidence_items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["evidence_id", "synthetic", "evidence_type", "captured_at", "source_role", "integrity_status"],
+        "properties": {
+          "evidence_id": {"type": "string", "pattern": "^EV-SYN-[A-Z0-9-]+$"},
+          "synthetic": {"const": true},
+          "evidence_type": {
+            "enum": ["observation", "document_reference", "measurement", "communication", "system_event"]
+          },
+          "captured_at": {"type": "string", "format": "date-time"},
+          "source_role": {"type": "string", "minLength": 1},
+          "integrity_status": {"enum": ["available", "unverified", "contradictory", "missing"]}
+        }
+      }
+    },
+    "interruptions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["interruption_id", "category", "effect", "changed_handover_state"],
+        "properties": {
+          "interruption_id": {"type": "string", "pattern": "^INT-SYN-[A-Z0-9-]+$"},
+          "category": {
+            "enum": ["access", "material", "tooling", "dependency", "inspection", "weather", "coordination", "evidence_delay", "other"]
+          },
+          "effect": {"type": "string", "minLength": 1},
+          "changed_handover_state": {"type": "boolean"}
+        }
+      }
+    },
+    "authority_boundary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "authorizes_work",
+        "confirms_isolation",
+        "approves_permit",
+        "declares_safe",
+        "statement"
+      ],
+      "properties": {
+        "authorizes_work": {"const": false},
+        "confirms_isolation": {"const": false},
+        "approves_permit": {"const": false},
+        "declares_safe": {"const": false},
+        "statement": {
+          "const": "Evidence record only. Follow site procedures and competent-person authority."
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_mode", "generator", "seed", "no_real_site_data"],
+      "properties": {
+        "source_mode": {"const": "synthetic"},
+        "generator": {"type": "string", "minLength": 1},
+        "seed": {"type": "integer", "minimum": 0},
+        "no_real_site_data": {"const": true}
+      }
+    },
+    "limitations": {"type": "array", "minItems": 1, "items": {"type": "string"}}
+  }
+}

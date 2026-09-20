@@ -1,0 +1,84 @@
+{
+  "contract_version": "1.0.0",
+  "record_id": "HANDOVER-SYN-005",
+  "scenario_id": "SCENARIO-SYN-005",
+  "synthetic": true,
+  "generated_at": "2026-01-15T18:00:00Z",
+  "handover_at": "2026-01-15T17:30:00Z",
+  "shift_window": {
+    "start": "2026-01-15T06:00:00Z",
+    "end": "2026-01-15T18:00:00Z"
+  },
+  "work_front": {
+    "id": "WF-SYN-005",
+    "label": "Synthetic work front 5",
+    "scope_summary": "Fictional maintenance coordination scenario.",
+    "overall_state": "paused",
+    "change_since_last": "Synthetic state change recorded for contract testing."
+  },
+  "incoming_view": {
+    "headline": "Work front is paused by a synthetic material dependency.",
+    "priority_condition": "blocker",
+    "blockers": [
+      "Synthetic material dependency remains unresolved."
+    ],
+    "next_actions": [
+      {
+        "action_id": "ACT-SYN-005",
+        "description": "Confirm whether the fictional material dependency has changed.",
+        "owner_role": "synthetic_coordinator",
+        "timing": "next_shift"
+      }
+    ]
+  },
+  "assertions": [
+    {
+      "assertion_id": "AST-SYN-005",
+      "subject": "Synthetic task state",
+      "reported_state": "paused",
+      "evidence_disposition": "supported",
+      "evidence_refs": [
+        "EV-SYN-005"
+      ],
+      "confidence": "medium",
+      "observed_at": "2026-01-15T17:20:00Z",
+      "limitations": [
+        "Synthetic scenario; no field verification."
+      ]
+    }
+  ],
+  "evidence_items": [
+    {
+      "evidence_id": "EV-SYN-005",
+      "synthetic": true,
+      "evidence_type": "communication",
+      "captured_at": "2026-01-15T16:50:00Z",
+      "source_role": "synthetic_coordinator",
+      "integrity_status": "available"
+    }
+  ],
+  "interruptions": [
+    {
+      "interruption_id": "INT-SYN-005",
+      "category": "material",
+      "effect": "Synthetic dependency paused progress.",
+      "changed_handover_state": true
+    }
+  ],
+  "authority_boundary": {
+    "authorizes_work": false,
+    "confirms_isolation": false,
+    "approves_permit": false,
+    "declares_safe": false,
+    "statement": "Evidence record only. Follow site procedures and competent-person authority."
+  },
+  "provenance": {
+    "source_mode": "synthetic",
+    "generator": "m1-fixture-builder",
+    "seed": 5,
+    "no_real_site_data": true
+  },
+  "limitations": [
+    "Synthetic contract fixture; not operational evidence."
+  ]
+}
