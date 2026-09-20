@@ -49,8 +49,8 @@ Every published statement or artifact belongs to one explicit class:
 
 | Case | Context | Mode | Current state |
 |---|---|---|---|
-| [Case 001](cases/case-001-hail-creek-chpp/README.md) | Hail Creek CHPP | Retrospective | Registered |
-| [Case 002](cases/case-002-rolleston-dl01/README.md) | Rolleston DL01 | Longitudinal; publication deferred | Registered |
+| [Case 001](cases/case-001-hail-creek-chpp/README.md) | Hail Creek CHPP | Retrospective | Documented |
+| [Case 002](cases/case-002-rolleston-dl01/README.md) | Rolleston DL01 | Longitudinal; completed swings only | Active longitudinal |
 
 All cases follow the [case-study framework](docs/case-study-framework.md) and the reusable [case template](cases/_template/README.md).
 
