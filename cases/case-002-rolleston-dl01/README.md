@@ -53,11 +53,12 @@ The documented workstreams are:
 
 1. **Initial setup:** physical assistance to electricians with generators, temporary leads, and welding-equipment supply arrangements. Martin transported and uncoiled cables but performed no electrical connections.
 2. **Walking-shoe and girder support:** removal and preparation of plate material, cleaning, measuring or marking, edge preparation, manual handling, positioning, equipment setup, and consumable readiness.
-3. **Machinery-house work:** support during removal of small welded plate segments around the cylindrical cable-reel drum. The formal component terminology is not independently verified.
-4. **Minor work fronts:** limited guardrail-related assistance and preparation of small support pieces or cradles for welded covers.
-5. **Hot-work support:** fire watch during welding, grinding, oxy-cutting, and gouging, using an extinguisher and water spray while monitoring for ignition and changing conditions.
-6. **Crack-repair support:** work-front readiness while the boilermaker used gouging to remove defective material before welding.
-7. **Night-shift continuity:** sustained plate and girder preparation for walking-shoe work across five night shifts.
+3. **Deck and walkway preparation:** marking of floor sections on the access walkway into the machinery house so the responsible trade could later remove them by oxy-cutting. The anticipated replacement is not claimed as observed or completed.
+4. **Machinery-house work:** on the final night shift, support during removal of small welded plate segments around the cylindrical cable-reel drum. The formal component terminology is not independently verified.
+5. **Minor work fronts:** limited guardrail-related assistance and preparation of small support pieces or cradles for welded covers.
+6. **Hot-work support:** fire watch during welding, grinding, oxy-cutting, and gouging, using an extinguisher and water spray while monitoring for ignition and changing conditions.
+7. **Crack-repair support:** work-front readiness while the boilermaker used gouging to remove defective material before welding.
+8. **Night-shift continuity:** sustained plate and girder preparation for walking-shoe work across five night shifts.
 
 Martin occasionally used an angle grinder when specifically permitted and directed. He did not weld, make electrical connections, operate oxy-cutting or gouging equipment, control crane lifts, confirm isolations, approve permits, or enter confined spaces.
 
@@ -70,7 +71,7 @@ The complete ten-shift reconstruction is in [`case-record.yaml`](case-record.yam
 | Walking shoes | Girder and plate preparation support |
 | Boilermaker bay | Equipment, consumable, and material readiness |
 | Machinery house | Cable-reel drum plate-removal support |
-| Deck and access areas | General setup and a minor guardrail-related task |
+| Deck and access walkways | Floor-section marking for later trade removal, general setup, and a minor guardrail-related task |
 | Electrical setup interface | Physical cable and generator setup assistance only |
 | Crane interface | Remained under assigned controls; riggers or spotters controlled lifts |
 | Confined spaces | No entry; required authorization was not held |
@@ -196,3 +197,4 @@ Limitations:
 |---|---|---|
 | 2026-09-19 | Context-only longitudinal case registered | — → `REGISTERED` |
 | 2026-09-20 | Swing 001 schedule, ten-shift reconstruction, workstreams, boundaries, and hypotheses documented | `REGISTERED` → `ACTIVE_LONGITUDINAL` |
+| 2026-09-20 | Corrected Shift 5 walkway-marking activity and moved cable-reel drum work to Shift 10 | `ACTIVE_LONGITUDINAL` |
