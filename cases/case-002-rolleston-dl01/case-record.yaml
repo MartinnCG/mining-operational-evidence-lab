@@ -1,5 +1,5 @@
 case_id: CASE-002
-record_version: 1.0.0
+record_version: 1.0.1
 case_status: ACTIVE_LONGITUDINAL
 publication_mode: sanitized_personal_experience
 case_title: Rolleston DL01
@@ -117,6 +117,7 @@ swings:
       - Setup and material readiness for hot work
       - Physical setup assistance to electricians without performing electrical connections
       - Removal, cleaning, marking, preparation, movement, and positioning of plate material
+      - Marking of deck and walkway floor sections for planned removal by the responsible trade
       - Occasional angle-grinder use when specifically permitted and directed
       - Housekeeping and work-front readiness
       - Limited spotting assistance on one lower-complexity mobile-equipment movement
@@ -275,34 +276,33 @@ swings:
         shift_start: 2026-09-11T06:30:00+10:00
         shift_end: 2026-09-11T18:30:00+10:00
         shift_type: day_shift
-        work_area: Machinery house
-        workstream: Cable-reel drum plate removal support
+        work_area: Deck and machinery-house access walkway
+        workstream: Walkway floor marking and removal preparation
         trades_supported:
           - Boilermaker
         personal_contribution:
-          - Assisted work around the cylindrical drum used to manage the dragline cable.
-          - Helped remove small welded plate segments described from memory as resembling gear-like pieces.
-          - Supported surface preparation, tool readiness, material handling, and housekeeping.
-          - Maintained fire-watch coverage during associated hot work.
+          - Assisted with identifying and marking sections of the deck or access walkway leading into the machinery house.
+          - Helped prepare the work area so the marked floor sections could later be removed by oxy-cutting.
+          - Supported measuring, marking, access readiness, and housekeeping under boilermaker direction.
+          - Maintained role boundaries and did not operate the oxy-cutting equipment.
         tools_and_resources:
-          - Plate-removal and surface-preparation resources
-          - Boilermaker tools and consumables prepared under direction
-          - Fire extinguisher
-          - Water spray
+          - Measuring and marking resources
+          - General boilermaker setup equipment and consumables
+          - Barricading and housekeeping resources available at the work front
         coordination_and_dependencies:
-          - Followed the assigned boilermaker's sequence for removal and preparation.
-          - Preserved clear access and organised removed material.
+          - Followed the assigned boilermaker's direction when marking the intended removal limits.
+          - Recognised that physical removal depended on later hot work, authorization, and work-front availability.
         controls_observed:
           - Work-front barricading
-          - Hot-work controls
           - JSA, permit, and isolation awareness
-        outcome: Completed the final day-shift assignment supporting removal and preparation work around the cable-reel drum.
-        professional_learning: Expanded familiarity with machinery-house work and the importance of using bounded language when component terminology is uncertain.
+          - Access and trip-hazard awareness around the walkway
+        outcome: The relevant deck or walkway floor sections were marked and prepared for a later removal stage.
+        professional_learning: Learned that marking and preparation are distinct evidence states from removal, replacement, and completion.
         evidence_status: directly_recalled
         confidence: high
         limitations:
-          - The functional description of the drum is recalled, but the formal component name is not independently verified.
-          - Plate geometry and technical purpose are not asserted.
+          - The formal name and construction type of the floor section are not independently verified.
+          - Later oxy-cut removal and installation of replacement flooring were anticipated but are not claimed as observed or completed.
 
       - shift_number: 6
         shift_start: 2026-09-12T18:30:00+10:00
@@ -441,33 +441,36 @@ swings:
         shift_start: 2026-09-16T18:30:00+10:00
         shift_end: 2026-09-17T06:30:00+10:00
         shift_type: night_shift
-        work_area: Walking shoes and girder work front
-        workstream: Continuing girder support and swing closeout
+        work_area: Machinery house
+        workstream: Cable-reel drum plate-removal support and swing closeout
         trades_supported:
           - Boilermaker
         personal_contribution:
-          - Continued plate preparation, positioning, equipment setup, and fire-watch duties.
-          - Returned tools and organised the work area for safe continuation by the following shift.
-          - Communicated task status through the established supervisor and trade structure rather than claiming handover authority.
+          - Assisted work around the cylindrical drum used to manage the dragline cable.
+          - Helped remove small welded plate segments described from memory as resembling gear-like pieces.
+          - Supported surface preparation, tool readiness, material handling, and housekeeping.
+          - Maintained fire-watch coverage during associated hot work.
+          - Organised tools and the work area for continuation by the following shift.
         tools_and_resources:
-          - Plate-preparation resources
-          - Boilermaker tools and consumables
+          - Plate-removal and surface-preparation resources
+          - Boilermaker tools and consumables prepared under direction
           - Fire extinguisher
           - Water spray
         coordination_and_dependencies:
-          - Worked around authorization waits, lifting dependencies, and preceding activities.
-          - Left the area, tools, and accessible materials orderly for continuation.
+          - Followed the assigned boilermaker's sequence for removal and preparation.
+          - Preserved clear access and organised removed material.
+          - Communicated task status through the established supervisor and trade structure rather than claiming handover authority.
         controls_observed:
-          - Night pre-start
-          - JSA and SLAM
-          - Barricading
-          - Hot-work, permit, and isolation awareness
-        outcome: Completed the final assigned shift with the work front prepared for continued activity by the next crew.
-        professional_learning: Finished the swing with stronger dragline awareness, safer positioning, clearer trade communication, and better anticipation of work-front needs.
-        evidence_status: reconstructed_sequence
-        confidence: medium
+          - Work-front barricading
+          - Hot-work controls
+          - JSA, permit, and isolation awareness
+        outcome: Completed the final assigned shift supporting removal and preparation around the cable-reel drum, with the work front left orderly for continuation.
+        professional_learning: Expanded familiarity with machinery-house work while reinforcing the difference between personal participation and formal repair completion.
+        evidence_status: directly_recalled
+        confidence: high
         limitations:
-          - This is personal swing closeout, not evidence of task, work-front, or shutdown completion.
+          - The functional description of the drum is recalled, but the formal component name is not independently verified.
+          - Plate geometry, technical purpose, repair completion, and equipment status are not asserted.
 
     general_operational_observations:
       enabling_conditions:
