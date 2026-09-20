@@ -1,0 +1,613 @@
+case_id: CASE-002
+record_version: 1.0.0
+case_status: ACTIVE_LONGITUDINAL
+publication_mode: sanitized_personal_experience
+case_title: Rolleston DL01
+
+context:
+  public_site_label: Rolleston DL01
+  jurisdiction: Queensland, Australia
+  experience_year: 2026
+  employer: Richglen
+  role: Trade Assistant
+  primary_trade_supported: Boilermaker
+  asset_context: Dragline 01
+  exact_dates_published: true
+  employer_published: true
+
+record_scope:
+  purpose: Document completed swings as professional field evidence while the wider longitudinal case continues.
+  interpretation_rule: Personal participation is documented; official maintenance scope, asset condition, completion, and site performance are not asserted.
+  excluded_information:
+    - Names of workers, supervisors, and crews
+    - Permit numbers, work-order numbers, isolation points, and access details
+    - Drawings, dimensions, material specifications, and engineering acceptance criteria
+    - Live work-front status and information from future or active shifts
+  allowed_operational_vocabulary:
+    - Pre-start
+    - Work Area Familiarisation
+    - Job Safety Analysis
+    - Permit
+    - SLAM
+    - Barricading
+    - Isolation and lockout-tagout awareness
+    - Fire watch
+  publication_note: Generic control names are published as experience context, not as evidence that Martin issued, approved, or verified them.
+
+source_basis:
+  primary_source_type: retrospective_self_report
+  supporting_source_type: private_roster_screenshot
+  roster_evidence_reviewed: true
+  roster_evidence_committed: false
+  roster_supports:
+    - Participant name
+    - Employer
+    - Trade Assistant role
+    - Crew allocation
+    - Mobilisation, shift-pattern, and demobilisation dates
+  task_detail_documentary_verification: none
+  operational_record_status: not_published
+
+claim_vocabulary:
+  evidence_status:
+    - roster_supported
+    - directly_recalled
+    - confirmed_activity
+    - partially_recalled
+    - reconstructed_sequence
+    - contextual_inference
+    - unknown
+  confidence:
+    - high
+    - medium
+    - low
+    - unknown
+  publication_status:
+    - published_sanitized
+    - withheld_private
+    - excluded_unverified
+
+swings:
+  - swing_id: SWING-001
+    swing_status: DOCUMENTED
+    mobilisation_date: 2026-09-06
+    first_shift_date: 2026-09-07
+    final_shift_end_date: 2026-09-17
+    demobilisation_date: 2026-09-18
+    scheduled_shift_count: 10
+    scheduled_hours: 120
+    day_shift:
+      start_dates:
+        - 2026-09-07
+        - 2026-09-08
+        - 2026-09-09
+        - 2026-09-10
+        - 2026-09-11
+      hours: "06:30-18:30"
+      count: 5
+    shift_transition:
+      date: 2026-09-12
+      description: Did not start at 06:30; commenced the first night shift at 18:30.
+    night_shift:
+      start_dates:
+        - 2026-09-12
+        - 2026-09-13
+        - 2026-09-14
+        - 2026-09-15
+        - 2026-09-16
+      hours: "18:30-06:30"
+      count: 5
+
+    swing_objective_context:
+      statement: The participant understood the shutdown as a broad service and repair campaign on DL01 involving crack repair, component replacement, and supporting maintenance activities.
+      evidence_status: directly_recalled
+      confidence: high
+      limitation: This is Martin's understanding of the context, not the official shutdown scope.
+
+    work_areas:
+      - Walking shoes
+      - Boilermaker bay
+      - Machinery house
+      - Deck
+      - General dragline setup areas
+
+    duties_confirmed:
+      - Trade Assistant support to one boilermaker during most assigned work
+      - Fire-watch support during welding, grinding, oxy-cutting, and gouging
+      - Setup and material readiness for hot work
+      - Physical setup assistance to electricians without performing electrical connections
+      - Removal, cleaning, marking, preparation, movement, and positioning of plate material
+      - Occasional angle-grinder use when specifically permitted and directed
+      - Housekeeping and work-front readiness
+      - Limited spotting assistance on one lower-complexity mobile-equipment movement
+      - Remaining outside confined spaces because entry authorization was not held
+
+    authority_and_competency_boundaries:
+      electrical_connections_performed: false
+      confined_space_entry_performed: false
+      crane_spotter_or_rigger_role: false
+      welding_performed: false
+      oxy_cutting_operated: false
+      gouging_operated: false
+      isolation_confirmed: false
+      permit_approved: false
+      engineering_acceptance_provided: false
+      note: Crane movements were controlled by assigned rigging or spotting personnel. Tool use and assistance occurred under site and trade direction.
+
+    shift_records:
+      - shift_number: 1
+        shift_start: 2026-09-07T06:30:00+10:00
+        shift_end: 2026-09-07T18:30:00+10:00
+        shift_type: day_shift
+        work_area: General DL01 setup areas
+        workstream: Initial shutdown setup and electrical-trade assistance
+        trades_supported:
+          - Electrician
+          - Boilermaker
+        personal_contribution:
+          - Assisted with general work-front setup around DL01.
+          - Transported and uncoiled temporary leads used to supply welding equipment.
+          - Helped position cables and supporting resources on elevated steel structure under direction.
+          - Performed physical assistance only and did not make electrical connections.
+        tools_and_resources:
+          - Temporary welding leads
+          - General setup materials
+          - Manual-handling equipment available at the work front
+        coordination_and_dependencies:
+          - Followed electrician and supervisor direction for placement and routing.
+          - Worked around the broader mobilisation of several trades and work fronts.
+        controls_observed:
+          - Pre-start communication
+          - Work Area Familiarisation
+          - JSA and permit awareness
+          - Barricading and access control
+        outcome: Contributed to establishing temporary services and initial work-front readiness.
+        professional_learning: Began learning DL01 layout, access routes, trade boundaries, and the scale of a dragline shutdown.
+        evidence_status: directly_recalled
+        confidence: high
+        limitations:
+          - Generator and distribution details are not published.
+          - No electrical installation or energisation is claimed.
+
+      - shift_number: 2
+        shift_start: 2026-09-08T06:30:00+10:00
+        shift_end: 2026-09-08T18:30:00+10:00
+        shift_type: day_shift
+        work_area: General DL01 setup areas and boilermaker work front
+        workstream: Setup continuation and transition to boilermaker support
+        trades_supported:
+          - Electrician
+          - Boilermaker
+        personal_contribution:
+          - Continued transporting, uncoiling, and arranging temporary cables under electrician direction.
+          - Helped establish equipment and consumable readiness for boilermaker work.
+          - Began fire-watch and general Trade Assistant duties for the assigned boilermaker.
+        tools_and_resources:
+          - Temporary leads
+          - Welding-support equipment
+          - Fire extinguisher
+          - Water spray
+        coordination_and_dependencies:
+          - Responded to setup priorities communicated by supervisors and trades.
+          - Maintained clear role separation between physical assistance and electrical or trade work.
+        controls_observed:
+          - Pre-start and small work-group planning discussion
+          - Work-front barricading
+          - JSA, permit, and isolation awareness
+        outcome: Supported the transition from general mobilisation into sustained boilermaker maintenance work.
+        professional_learning: Improved understanding of how early setup quality affects later trade productivity.
+        evidence_status: reconstructed_sequence
+        confidence: medium
+        limitations:
+          - Setup and boilermaker support are directly recalled; their distribution across the first two shifts is approximate.
+
+      - shift_number: 3
+        shift_start: 2026-09-09T06:30:00+10:00
+        shift_end: 2026-09-09T18:30:00+10:00
+        shift_type: day_shift
+        work_area: Walking shoes and girder work front
+        workstream: Girder and plate preparation
+        trades_supported:
+          - Boilermaker
+        personal_contribution:
+          - Assisted with removal of previously welded plate material as directed.
+          - Cleaned surfaces and helped measure or mark plate preparation points.
+          - Moved, held, and positioned plate material for the boilermaker.
+          - Prepared equipment and consumables and maintained fire watch during hot work.
+        tools_and_resources:
+          - Plate material
+          - Measuring and marking tools used under direction
+          - Fire extinguisher
+          - Water spray
+          - Boilermaker consumables
+        coordination_and_dependencies:
+          - Worked to the sequence established by the assigned boilermaker.
+          - Waited when preceding work, authorization, or lifting activity controlled access.
+        controls_observed:
+          - Barricading
+          - JSA and SLAM
+          - Isolation and lockout-tagout awareness
+          - Hot-work permit awareness
+        outcome: Supported progressive preparation of girder and plate work associated with the walking shoes.
+        professional_learning: Developed more effective positioning, readiness, and anticipation around boilermaker tasks.
+        evidence_status: reconstructed_sequence
+        confidence: medium
+        limitations:
+          - The dominant workstream is confirmed; the exact distribution of individual actions by shift is reconstructed.
+
+      - shift_number: 4
+        shift_start: 2026-09-10T06:30:00+10:00
+        shift_end: 2026-09-10T18:30:00+10:00
+        shift_type: day_shift
+        work_area: Walking shoes, deck, and machinery-house access
+        workstream: Girder preparation and minor guardrail work
+        trades_supported:
+          - Boilermaker
+        personal_contribution:
+          - Continued plate removal, cleaning, edge preparation, and positioning around girder work.
+          - Assisted with a minor guardrail-related task during the shift.
+          - Used an angle grinder on limited occasions when permitted and directed.
+          - Ground surfaces and cut small support pieces or cradles required for welded covers.
+          - Maintained fire watch while the boilermaker performed hot work.
+        tools_and_resources:
+          - Angle grinder
+          - Plate material
+          - Welding-support equipment and consumables
+          - Fire extinguisher
+          - Water spray
+        coordination_and_dependencies:
+          - Changed between small work fronts under supervisor and boilermaker direction.
+          - Kept the work area and tools ready so the next operation could proceed.
+        controls_observed:
+          - Tool authorization and trade direction
+          - Barricading and work-area awareness
+          - Fire-watch positioning
+          - JSA and permit awareness
+        outcome: Supported both the main girder workstream and a smaller guardrail-related maintenance task.
+        professional_learning: Learned to shift between tasks without losing housekeeping, tool control, or fire-watch attention.
+        evidence_status: reconstructed_sequence
+        confidence: medium
+        limitations:
+          - The guardrail task occurred during day shift; attribution to Shift 4 is approximate.
+          - Angle-grinder use does not imply boilermaker trade competency.
+
+      - shift_number: 5
+        shift_start: 2026-09-11T06:30:00+10:00
+        shift_end: 2026-09-11T18:30:00+10:00
+        shift_type: day_shift
+        work_area: Machinery house
+        workstream: Cable-reel drum plate removal support
+        trades_supported:
+          - Boilermaker
+        personal_contribution:
+          - Assisted work around the cylindrical drum used to manage the dragline cable.
+          - Helped remove small welded plate segments described from memory as resembling gear-like pieces.
+          - Supported surface preparation, tool readiness, material handling, and housekeeping.
+          - Maintained fire-watch coverage during associated hot work.
+        tools_and_resources:
+          - Plate-removal and surface-preparation resources
+          - Boilermaker tools and consumables prepared under direction
+          - Fire extinguisher
+          - Water spray
+        coordination_and_dependencies:
+          - Followed the assigned boilermaker's sequence for removal and preparation.
+          - Preserved clear access and organised removed material.
+        controls_observed:
+          - Work-front barricading
+          - Hot-work controls
+          - JSA, permit, and isolation awareness
+        outcome: Completed the final day-shift assignment supporting removal and preparation work around the cable-reel drum.
+        professional_learning: Expanded familiarity with machinery-house work and the importance of using bounded language when component terminology is uncertain.
+        evidence_status: directly_recalled
+        confidence: high
+        limitations:
+          - The functional description of the drum is recalled, but the formal component name is not independently verified.
+          - Plate geometry and technical purpose are not asserted.
+
+      - shift_number: 6
+        shift_start: 2026-09-12T18:30:00+10:00
+        shift_end: 2026-09-13T06:30:00+10:00
+        shift_type: night_shift
+        work_area: Walking shoes and girder work front
+        workstream: Night-shift transition and plate setup
+        trades_supported:
+          - Boilermaker
+        personal_contribution:
+          - Returned at 18:30 for the first night shift rather than beginning a day shift.
+          - Re-established tools, equipment, consumables, and fire-watch readiness.
+          - Assisted with cleaning, marking, moving, and positioning plates for welding on walking-shoe girder work.
+        tools_and_resources:
+          - Plate material
+          - Measuring and marking resources
+          - Welding-support equipment
+          - Fire extinguisher
+          - Water spray
+        coordination_and_dependencies:
+          - Adapted to the night-shift crew rhythm and work-front priorities.
+          - Received direction from the assigned boilermaker and supervisors.
+        controls_observed:
+          - Night pre-start
+          - Work-group task discussion
+          - JSA and SLAM
+          - Barricading, lighting, and access awareness
+        outcome: Established continuity into night shift and supported the active girder workstream.
+        professional_learning: Adjusted concentration, communication, and work positioning to night conditions.
+        evidence_status: directly_recalled
+        confidence: high
+        limitations:
+          - No formal handover content or live work-front state is reproduced.
+
+      - shift_number: 7
+        shift_start: 2026-09-13T18:30:00+10:00
+        shift_end: 2026-09-14T06:30:00+10:00
+        shift_type: night_shift
+        work_area: Walking shoes and girder work front
+        workstream: Plate removal and preparation
+        trades_supported:
+          - Boilermaker
+        personal_contribution:
+          - Continued removing and organising plate material under direction.
+          - Cleaned surfaces and supported measurement, marking, and edge preparation.
+          - Positioned material for the boilermaker and maintained equipment readiness.
+          - Monitored welding, grinding, oxy-cutting, or gouging activity as fire watch when required.
+        tools_and_resources:
+          - Plate material
+          - Angle grinder when specifically permitted
+          - Boilermaker consumables
+          - Fire extinguisher
+          - Water spray
+        coordination_and_dependencies:
+          - Worked within the boilermaker's task sequence.
+          - Paused when authorization, access, or other work-front activity prevented continuation.
+        controls_observed:
+          - Hot-work controls
+          - Barricading
+          - Permit and isolation awareness
+          - Housekeeping around leads and tools
+        outcome: Maintained support continuity through a sustained plate-preparation night shift.
+        professional_learning: Improved anticipation of material, tool, and fire-watch requirements.
+        evidence_status: reconstructed_sequence
+        confidence: medium
+        limitations:
+          - The workstream is directly recalled; allocation of each preparation step to this night is approximate.
+
+      - shift_number: 8
+        shift_start: 2026-09-14T18:30:00+10:00
+        shift_end: 2026-09-15T06:30:00+10:00
+        shift_type: night_shift
+        work_area: Walking shoes and girder work front
+        workstream: Crack-preparation hot-work support
+        trades_supported:
+          - Boilermaker
+        personal_contribution:
+          - Set up equipment and consumables for the assigned boilermaker.
+          - Maintained fire watch while crack-affected material was prepared by gouging before weld repair.
+          - Monitored for ignition, sparks, hot material, and changing conditions around the work area.
+          - Assisted with cleaning and readiness between hot-work stages.
+        tools_and_resources:
+          - Fire extinguisher
+          - Water spray
+          - Welding and gouging support resources handled under direction
+        coordination_and_dependencies:
+          - Remained responsive to pauses between gouging, cleaning, and welding stages.
+          - Maintained separation between fire-watch duties and trade-only tool operation.
+        controls_observed:
+          - Hot-work permit awareness
+          - Fire-watch positioning
+          - Barricading and access control
+          - JSA and SLAM
+        outcome: Supported continuity between defect preparation and the boilermaker's weld-repair stages.
+        professional_learning: Strengthened understanding of fire-watch vigilance across changing hot-work methods.
+        evidence_status: reconstructed_sequence
+        confidence: medium
+        limitations:
+          - Martin did not operate gouging equipment or perform welding.
+          - The exact night on which each crack-related activity occurred is reconstructed.
+
+      - shift_number: 9
+        shift_start: 2026-09-15T18:30:00+10:00
+        shift_end: 2026-09-16T06:30:00+10:00
+        shift_type: night_shift
+        work_area: Walking shoes and girder work front
+        workstream: Plate positioning and welding support
+        trades_supported:
+          - Boilermaker
+        personal_contribution:
+          - Prepared and positioned plates for boilermakers to weld.
+          - Held or stabilised small pieces when directed and safe to do so.
+          - Supplied tools and consumables and maintained orderly leads and access.
+          - Continued fire-watch coverage during welding, grinding, oxy-cutting, and gouging activity.
+        tools_and_resources:
+          - Prepared plate material
+          - Boilermaker consumables
+          - Fire extinguisher
+          - Water spray
+        coordination_and_dependencies:
+          - Coordinated physical support with the assigned boilermaker.
+          - Remained outside crane-controlled areas while assigned riggers or spotters controlled lifting.
+        controls_observed:
+          - Exclusion-zone awareness
+          - Work-front barricading
+          - Hot-work controls
+          - JSA, permit, and isolation awareness
+        outcome: Maintained material and fire-watch readiness for continued walking-shoe plate work.
+        professional_learning: Improved task sequencing and role clarity around simultaneous hot work and material movement.
+        evidence_status: reconstructed_sequence
+        confidence: medium
+        limitations:
+          - Martin did not perform crane signaling, welding, oxy-cutting, or gouging.
+
+      - shift_number: 10
+        shift_start: 2026-09-16T18:30:00+10:00
+        shift_end: 2026-09-17T06:30:00+10:00
+        shift_type: night_shift
+        work_area: Walking shoes and girder work front
+        workstream: Continuing girder support and swing closeout
+        trades_supported:
+          - Boilermaker
+        personal_contribution:
+          - Continued plate preparation, positioning, equipment setup, and fire-watch duties.
+          - Returned tools and organised the work area for safe continuation by the following shift.
+          - Communicated task status through the established supervisor and trade structure rather than claiming handover authority.
+        tools_and_resources:
+          - Plate-preparation resources
+          - Boilermaker tools and consumables
+          - Fire extinguisher
+          - Water spray
+        coordination_and_dependencies:
+          - Worked around authorization waits, lifting dependencies, and preceding activities.
+          - Left the area, tools, and accessible materials orderly for continuation.
+        controls_observed:
+          - Night pre-start
+          - JSA and SLAM
+          - Barricading
+          - Hot-work, permit, and isolation awareness
+        outcome: Completed the final assigned shift with the work front prepared for continued activity by the next crew.
+        professional_learning: Finished the swing with stronger dragline awareness, safer positioning, clearer trade communication, and better anticipation of work-front needs.
+        evidence_status: reconstructed_sequence
+        confidence: medium
+        limitations:
+          - This is personal swing closeout, not evidence of task, work-front, or shutdown completion.
+
+    general_operational_observations:
+      enabling_conditions:
+        - A temporary camp and support layout organised around the dragline.
+        - A nearby store function that improved access to consumables and routine resources.
+        - A visible hierarchy connecting superintendents, supervisors, trades, and Trade Assistants.
+        - Small work-group discussions after pre-start that clarified the immediate plan.
+      dependencies_and_waits:
+        - Supervisor or higher-level authorization before work could continue.
+        - Release of areas after crane or other interacting activities.
+        - Availability and return of frequently used tools.
+        - Changes in daily allocation as trades, tasks, and work fronts were rotated.
+      handover_practice_observed:
+        - Work was generally advanced as far as practical within the shift.
+        - Tools and the work area were cleaned and organised for the incoming shift.
+        - Supervisors and senior personnel controlled formal handover content.
+      improvement_opportunities:
+        - More consistent general housekeeping.
+        - Clearer and more complete barricading and tagging where required.
+        - More reliable return of essential shared tools to the store.
+      interpretation_limit: These are personal observations and improvement hypotheses, not audit findings or statements of site non-compliance.
+
+    personal_development:
+      - Learned the physical layout and working rhythm of a dragline shutdown.
+      - Improved positioning around multiple hazards and interacting activities.
+      - Developed practical familiarity with walking-shoe, girder, machinery-house, deck, and hot-work support.
+      - Improved equipment setup, consumable readiness, housekeeping, and communication with the assigned boilermaker.
+      - Maintained the boundary against confined-space entry without authorization.
+      - Learned that safe progress frequently depends on authorization, access release, lifting coordination, and the preceding task.
+
+claims:
+  - claim_id: PE-002-001
+    evidence_class: PERSONAL_EXPERIENCE
+    subject: swing_identity
+    statement: Worked for Richglen as a Trade Assistant on Rolleston DL01 across five day shifts and five night shifts in September 2026.
+    evidence_status: roster_supported
+    confidence: high
+    publication_status: published_sanitized
+    limitations:
+      - The supporting roster image is private and is not committed.
+
+  - claim_id: PE-002-002
+    evidence_class: PERSONAL_EXPERIENCE
+    subject: electrical_setup_assistance
+    statement: Provided physical setup assistance to electricians by transporting and extending temporary cables and related resources without performing electrical connections.
+    evidence_status: directly_recalled
+    confidence: high
+    publication_status: published_sanitized
+    limitations:
+      - Distribution, routing, energisation, and equipment specifications are not published.
+
+  - claim_id: PE-002-003
+    evidence_class: PERSONAL_EXPERIENCE
+    subject: boilermaker_support
+    statement: Supported an assigned boilermaker with plate removal and preparation, material positioning, equipment setup, consumable readiness, housekeeping, and fire watch.
+    evidence_status: directly_recalled
+    confidence: high
+    publication_status: published_sanitized
+    limitations:
+      - Trade-only work, engineering acceptance, and formal task completion are not claimed.
+
+  - claim_id: PE-002-004
+    evidence_class: PERSONAL_EXPERIENCE
+    subject: angle_grinder_use
+    statement: Used an angle grinder on limited occasions when permitted and directed for grinding or cutting small support pieces.
+    evidence_status: directly_recalled
+    confidence: high
+    publication_status: published_sanitized
+    limitations:
+      - This does not establish boilermaker qualification or unrestricted tool authority.
+
+  - claim_id: PE-002-005
+    evidence_class: PERSONAL_EXPERIENCE
+    subject: fire_watch
+    statement: Maintained fire watch with an extinguisher and water spray during welding, grinding, oxy-cutting, and gouging activities.
+    evidence_status: directly_recalled
+    confidence: high
+    publication_status: published_sanitized
+    limitations:
+      - Martin did not perform welding, oxy-cutting, or gouging.
+
+  - claim_id: PE-002-006
+    evidence_class: PERSONAL_EXPERIENCE
+    subject: confined_space_boundary
+    statement: Did not enter confined spaces because the required site authorization was not held.
+    evidence_status: directly_recalled
+    confidence: high
+    publication_status: published_sanitized
+    limitations:
+      - No space, permit, or access point is identified.
+
+  - claim_id: PE-002-007
+    evidence_class: PERSONAL_EXPERIENCE
+    subject: longitudinal_learning
+    statement: Developed greater practical awareness of dragline layout, work-front dependencies, safe positioning, and boilermaker support over the ten-shift swing.
+    evidence_status: directly_recalled
+    confidence: high
+    publication_status: published_sanitized
+    limitations:
+      - This is professional learning evidence, not a competency assessment.
+
+excluded_claims:
+  - claim_id: EX-002-001
+    subject: official_shutdown_scope
+    evidence_status: unknown
+    publication_status: excluded_unverified
+    reason: Martin's contextual understanding does not verify the official shutdown scope.
+
+  - claim_id: EX-002-002
+    subject: equipment_condition_and_completion
+    evidence_status: unknown
+    publication_status: excluded_unverified
+    reason: Personal participation does not establish asset condition, repair quality, completion, commissioning, or return-to-service status.
+
+  - claim_id: EX-002-003
+    subject: technical_component_identity
+    evidence_status: partially_recalled
+    publication_status: excluded_unverified
+    reason: Exact component names, functions, dimensions, and engineering specifications are not asserted where terminology is uncertain.
+
+design_hypotheses:
+  - hypothesis_id: HYP-002-001
+    statement: Tool, consumable, and work-front readiness should be visible as separate dependencies rather than embedded in free-text handover.
+    status: pending_synthetic_test
+  - hypothesis_id: HYP-002-002
+    statement: Handover should distinguish work completed, work prepared, work waiting for authorization, and work blocked by interacting activities.
+    status: pending_synthetic_test
+  - hypothesis_id: HYP-002-003
+    statement: A longitudinal swing model should preserve shift-pattern transitions and role boundaries without reproducing live operational records.
+    status: pending_synthetic_test
+  - hypothesis_id: HYP-002-004
+    statement: Shared-tool availability and return state can be modelled as an operational dependency with an owner and next action.
+    status: pending_synthetic_test
+
+authority_boundary:
+  authorizes_work: false
+  confirms_isolation: false
+  approves_permit: false
+  declares_safe: false
+  confirms_completion: false
+  verifies_engineering_quality: false
+  replaces_site_procedure: false
+  statement: Personal-experience and professional-learning record only. Site procedures, assigned trades, statutory roles, and competent-person authority remain controlling.
