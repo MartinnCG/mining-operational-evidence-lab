@@ -6,7 +6,7 @@ This folder preserves the SQL load and subsequent narrative correction requested
 
 These scripts were reconstructed from the blocks supplied in the learning conversation. Formatting and comments were condensed; the data values, guards and transactional behavior are retained. They are **not an export from the local SQL Server**, a native .bak backup, or a backup of the Power BI report.
 
-The existing September checkpoint in the parent folder covers swing 1 only. This addition covers **Rolleston swing 3**; it does not supply the missing Hail Creek or Rolleston swing 2 restore scripts. A complete four-case restore still requires a current schema-and-data export.
+The existing September checkpoint in the parent folder covers swing 1 only. This addition covers **Rolleston swing 3**. The user-uploaded [swing 2 load script](../swing-002/03_load_rolleston_swing02.sql) is now backed up separately. The Hail Creek SQL load is not included here. A complete four-case restore still requires a current schema-and-data export.
 
 The user explicitly requested this operational-learning backup. It is kept on the existing backup branch, separate from the synthetic portfolio model on main. OBSERVED is the existing learning-schema label for retrospective personal testimony, not independent verification. No photographs, signatures or other workers' names are uploaded.
 
