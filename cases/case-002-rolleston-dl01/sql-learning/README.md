@@ -1,4 +1,20 @@
-# Restore guide
+# SQL learning backup index
+
+## Available backups
+
+| Swing | Artifact | Expected rows: cases / shifts / activities / links / dependencies / contexts |
+|---|---|---|
+| 001 | [September checkpoint](restore_checkpoint.sql) | 1 / 10 / 8 / 12 / 5 / 5 |
+| 002 | [Original uploaded SQL script](swing-002/03_load_rolleston_swing02.sql) | 1 / 9 / 8 / 10 / 1 / 5 |
+| 003 | [Load and per-shift refinement](swing-003/README.md) | 1 / 10 / 4 / 14 / 5 / 8 |
+
+Swing 002 was uploaded by the user on 17 October 2026. Its SQL text and line endings are preserved, with any UTF-8 BOM omitted by text decoding. No SQL statements or narratives were edited. The script requires the existing ops schema, targets MiningLab and refuses to insert the same case twice. It uses a transaction and validates counts and associations. It has not been executed by the assistant; previously shared local query results match the expected counts.
+
+Swing 003 scripts were reconstructed from the learning conversation. These incremental files are not a native SQL Server backup and do not include the Power BI report. Hail Creek's SQL load and a current consolidated database export remain outside this backup set. The older case-record.yaml is still the swing 1 narrative.
+
+For a recovery rehearsal, create a separate compatible database and change the USE statements in the incremental scripts to that database. Never rerun loads against cases already present.
+
+## Swing 001 restore guide
 
 This checkpoint is adapted from the user's SSMS export `MiningLab_checkpoint_20260922.sql`. It preserves the exported Spanish narratives; this guide and SQL comments are in English. It is not a native SQL Server backup.
 
