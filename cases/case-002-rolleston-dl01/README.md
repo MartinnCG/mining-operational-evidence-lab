@@ -2,7 +2,7 @@
 
 > **Case status:** `ACTIVE_LONGITUDINAL`  
 > **Completed swings registered:** `SWING-001`, `SWING-002`, `SWING-003`  
-> **Backup coverage:** swing 1 checkpoint and swing 3 incremental scripts; swing 2 SQL backup pending  
+> **Backup coverage:** swing 1 checkpoint plus swing 2 and swing 3 incremental scripts  
 > **Case mode:** longitudinal; completed swings only  
 > **Publication mode:** sanitized personal experience plus later synthetic modelling  
 > **Authority:** no operational, safety, permit, electrical, rigging, engineering, or statutory authority is claimed
@@ -34,7 +34,7 @@ These sources establish naming context only. They do not verify Martin's duties,
 | Swing | Worked shifts | Local SQL record | Repository backup |
 |---|---:|---|---|
 | `SWING-001` | 5 day + 5 night = 10 | 8 activities; 12 links | [Checkpoint and restore guide](sql-learning/README.md) |
-| `SWING-002` | 4 day + 5 night = 9; swing day 1 was not worked | User-returned SQL results confirm 8 activities, 10 links, 1 dependency and 5 context records | **Pending:** the local SQL script/export has not been backed up in this branch |
+| `SWING-002` | 4 day + 5 night = 9; swing day 1 was not worked | User-returned SQL results confirm 8 activities, 10 links, 1 dependency and 5 context records | [Uploaded SQL load script](sql-learning/swing-002/03_load_rolleston_swing02.sql) |
 | `SWING-003` | 5 day + 5 night = 10 | Load and refinement supplied: 4 activities, 14 links, 5 dependencies and 8 context records | [Load, daily-summary refinement and recovery guide](sql-learning/swing-003/README.md) |
 
 Registration, local database content and GitHub backup coverage are separate states. The original `case-record.yaml` still covers swing 1 only; it is not a three-swing export. The descriptions in sections 4–8 below also remain the original swing 1 narrative.
@@ -185,7 +185,7 @@ See [`evidence-boundaries.md`](evidence-boundaries.md) for the controlling inter
 - [ ] Derived analysis and findings
 - [x] Swings 002 and 003 added to the longitudinal register
 - [x] Swing 003 incremental SQL load and narrative refinement backed up
-- [ ] Swing 002 SQL script/export backed up
+- [x] Swing 002 original uploaded SQL load script backed up
 - [ ] Consolidated schema-and-data export of all local cases
 
 ## 13. Findings and limitations
@@ -209,3 +209,4 @@ Limitations:
 | 2026-09-20 | Swing 001 schedule, ten-shift reconstruction, workstreams, boundaries, and hypotheses documented | `REGISTERED` → `ACTIVE_LONGITUDINAL` |
 | 2026-09-20 | Corrected Shift 5 walkway-marking activity and moved cable-reel drum work to Shift 10 | `ACTIVE_LONGITUDINAL` |
 | 2026-10-17 | Registered completed swings 002 and 003; linked swing 003 SQL backup and made missing swing 002 backup explicit | `ACTIVE_LONGITUDINAL` |
+| 2026-10-17 | Backed up the user-uploaded swing 002 SQL load script and updated backup coverage | `ACTIVE_LONGITUDINAL` |
